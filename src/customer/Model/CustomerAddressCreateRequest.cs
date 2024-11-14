@@ -74,9 +74,10 @@ namespace customer.Model
             this.FiscalCode = fiscalCode;
             this.VatNumber = vatNumber;
             this.Kind = kind;
-            this.VarDefault = varDefault;
+            this.Default = varDefault;
             this.Country = country;
             this.Attributes = attributes;
+            this.AdditionalProperties = new Dictionary<string, object>();
         }
 
         /// <summary>
@@ -158,10 +159,10 @@ namespace customer.Model
         public string VatNumber { get; set; }
 
         /// <summary>
-        /// Gets or Sets VarDefault
+        /// Gets or Sets Default
         /// </summary>
         [DataMember(Name = "default", EmitDefaultValue = true)]
-        public bool VarDefault { get; set; }
+        public bool Default { get; set; }
 
         /// <summary>
         /// Gets or Sets Country
@@ -174,6 +175,12 @@ namespace customer.Model
         /// </summary>
         [DataMember(Name = "attributes", EmitDefaultValue = false)]
         public Dictionary<string, ProtobufAny> Attributes { get; set; }
+
+        /// <summary>
+        /// Gets or Sets additional properties
+        /// </summary>
+        [JsonExtensionData]
+        public IDictionary<string, object> AdditionalProperties { get; set; }
 
         /// <summary>
         /// Returns the string presentation of the object
@@ -197,9 +204,10 @@ namespace customer.Model
             sb.Append("  FiscalCode: ").Append(FiscalCode).Append("\n");
             sb.Append("  VatNumber: ").Append(VatNumber).Append("\n");
             sb.Append("  Kind: ").Append(Kind).Append("\n");
-            sb.Append("  VarDefault: ").Append(VarDefault).Append("\n");
+            sb.Append("  Default: ").Append(Default).Append("\n");
             sb.Append("  Country: ").Append(Country).Append("\n");
             sb.Append("  Attributes: ").Append(Attributes).Append("\n");
+            sb.Append("  AdditionalProperties: ").Append(AdditionalProperties).Append("\n");
             sb.Append("}\n");
             return sb.ToString();
         }
@@ -218,7 +226,7 @@ namespace customer.Model
         /// </summary>
         /// <param name="validationContext">Validation context</param>
         /// <returns>Validation Result</returns>
-        IEnumerable<System.ComponentModel.DataAnnotations.ValidationResult> IValidatableObject.Validate(ValidationContext validationContext)
+        IEnumerable<ValidationResult> IValidatableObject.Validate(ValidationContext validationContext)
         {
             yield break;
         }

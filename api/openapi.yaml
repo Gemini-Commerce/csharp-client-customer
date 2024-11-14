@@ -10,6 +10,8 @@ info:
   version: v1
 servers:
 - url: https://cdp.api.gogemini.io/
+security:
+- Authorization: []
 tags:
 - externalDocs:
     url: https://gemini-commerce.com/api/cdp
@@ -1754,7 +1756,7 @@ components:
         country: country
         grn: grn
         city: city
-        kind: null
+        kind: SHIPPING
         em:
           entityCode: entityCode
           entityType: entityType
@@ -1842,7 +1844,7 @@ components:
             country: country
             grn: grn
             city: city
-            kind: null
+            kind: SHIPPING
             em:
               entityCode: entityCode
               entityType: entityType
@@ -1866,7 +1868,7 @@ components:
             country: country
             grn: grn
             city: city
-            kind: null
+            kind: SHIPPING
             em:
               entityCode: entityCode
               entityType: entityType
@@ -1903,8 +1905,8 @@ components:
             id: id
           surname: surname
           permissions:
-          - null
-          - null
+          - PERMISSION_UNKNOWN
+          - PERMISSION_UNKNOWN
           fiscalCode: fiscalCode
           additionalInfo: "{}"
           id: id
@@ -1926,7 +1928,7 @@ components:
           migratedPassword:
             data:
               key: data
-            type: null
+            type: PASSWORD_TYPE_UNKNOWN
             enabled: true
           taxCode: taxCode
           defaultBillingAddressId: defaultBillingAddressId
@@ -2007,7 +2009,7 @@ components:
             country: country
             grn: grn
             city: city
-            kind: null
+            kind: SHIPPING
             em:
               entityCode: entityCode
               entityType: entityType
@@ -2031,7 +2033,7 @@ components:
             country: country
             grn: grn
             city: city
-            kind: null
+            kind: SHIPPING
             em:
               entityCode: entityCode
               entityType: entityType
@@ -2068,8 +2070,8 @@ components:
             id: id
           surname: surname
           permissions:
-          - null
-          - null
+          - PERMISSION_UNKNOWN
+          - PERMISSION_UNKNOWN
           fiscalCode: fiscalCode
           additionalInfo: "{}"
           id: id
@@ -2091,7 +2093,7 @@ components:
           migratedPassword:
             data:
               key: data
-            type: null
+            type: PASSWORD_TYPE_UNKNOWN
             enabled: true
           taxCode: taxCode
           defaultBillingAddressId: defaultBillingAddressId
@@ -2152,7 +2154,7 @@ components:
           key: true
         author: author
         id: id
-        source: null
+        source: CONSENT_SOURCE_UNKNOWN
         subjectId: subjectId
       properties:
         id:
@@ -2285,7 +2287,7 @@ components:
           country: country
           grn: grn
           city: city
-          kind: null
+          kind: SHIPPING
           em:
             entityCode: entityCode
             entityType: entityType
@@ -2309,7 +2311,7 @@ components:
           country: country
           grn: grn
           city: city
-          kind: null
+          kind: SHIPPING
           em:
             entityCode: entityCode
             entityType: entityType
@@ -2346,8 +2348,8 @@ components:
           id: id
         surname: surname
         permissions:
-        - null
-        - null
+        - PERMISSION_UNKNOWN
+        - PERMISSION_UNKNOWN
         fiscalCode: fiscalCode
         additionalInfo: "{}"
         id: id
@@ -2369,7 +2371,7 @@ components:
         migratedPassword:
           data:
             key: data
-          type: null
+          type: PASSWORD_TYPE_UNKNOWN
           enabled: true
         taxCode: taxCode
         defaultBillingAddressId: defaultBillingAddressId
@@ -2546,7 +2548,7 @@ components:
             country: country
             grn: grn
             city: city
-            kind: null
+            kind: SHIPPING
             em:
               entityCode: entityCode
               entityType: entityType
@@ -2570,7 +2572,7 @@ components:
             country: country
             grn: grn
             city: city
-            kind: null
+            kind: SHIPPING
             em:
               entityCode: entityCode
               entityType: entityType
@@ -2607,8 +2609,8 @@ components:
             id: id
           surname: surname
           permissions:
-          - null
-          - null
+          - PERMISSION_UNKNOWN
+          - PERMISSION_UNKNOWN
           fiscalCode: fiscalCode
           additionalInfo: "{}"
           id: id
@@ -2630,7 +2632,7 @@ components:
           migratedPassword:
             data:
               key: data
-            type: null
+            type: PASSWORD_TYPE_UNKNOWN
             enabled: true
           taxCode: taxCode
           defaultBillingAddressId: defaultBillingAddressId
@@ -2649,7 +2651,7 @@ components:
             country: country
             grn: grn
             city: city
-            kind: null
+            kind: SHIPPING
             em:
               entityCode: entityCode
               entityType: entityType
@@ -2673,7 +2675,7 @@ components:
             country: country
             grn: grn
             city: city
-            kind: null
+            kind: SHIPPING
             em:
               entityCode: entityCode
               entityType: entityType
@@ -2710,8 +2712,8 @@ components:
             id: id
           surname: surname
           permissions:
-          - null
-          - null
+          - PERMISSION_UNKNOWN
+          - PERMISSION_UNKNOWN
           fiscalCode: fiscalCode
           additionalInfo: "{}"
           id: id
@@ -2733,7 +2735,7 @@ components:
           migratedPassword:
             data:
               key: data
-            type: null
+            type: PASSWORD_TYPE_UNKNOWN
             enabled: true
           taxCode: taxCode
           defaultBillingAddressId: defaultBillingAddressId
@@ -2867,7 +2869,7 @@ components:
             key: true
           author: author
           id: id
-          source: null
+          source: CONSENT_SOURCE_UNKNOWN
           subjectId: subjectId
         - createdAt: 2000-01-23T04:56:07.000+00:00
           grn: grn
@@ -2875,7 +2877,7 @@ components:
             key: true
           author: author
           id: id
-          source: null
+          source: CONSENT_SOURCE_UNKNOWN
           subjectId: subjectId
       properties:
         consents:
@@ -2925,7 +2927,7 @@ components:
             country: country
             grn: grn
             city: city
-            kind: null
+            kind: SHIPPING
             em:
               entityCode: entityCode
               entityType: entityType
@@ -2949,7 +2951,7 @@ components:
             country: country
             grn: grn
             city: city
-            kind: null
+            kind: SHIPPING
             em:
               entityCode: entityCode
               entityType: entityType
@@ -2986,8 +2988,8 @@ components:
             id: id
           surname: surname
           permissions:
-          - null
-          - null
+          - PERMISSION_UNKNOWN
+          - PERMISSION_UNKNOWN
           fiscalCode: fiscalCode
           additionalInfo: "{}"
           id: id
@@ -3009,7 +3011,7 @@ components:
           migratedPassword:
             data:
               key: data
-            type: null
+            type: PASSWORD_TYPE_UNKNOWN
             enabled: true
           taxCode: taxCode
           defaultBillingAddressId: defaultBillingAddressId
@@ -3028,7 +3030,7 @@ components:
             country: country
             grn: grn
             city: city
-            kind: null
+            kind: SHIPPING
             em:
               entityCode: entityCode
               entityType: entityType
@@ -3052,7 +3054,7 @@ components:
             country: country
             grn: grn
             city: city
-            kind: null
+            kind: SHIPPING
             em:
               entityCode: entityCode
               entityType: entityType
@@ -3089,8 +3091,8 @@ components:
             id: id
           surname: surname
           permissions:
-          - null
-          - null
+          - PERMISSION_UNKNOWN
+          - PERMISSION_UNKNOWN
           fiscalCode: fiscalCode
           additionalInfo: "{}"
           id: id
@@ -3112,7 +3114,7 @@ components:
           migratedPassword:
             data:
               key: data
-            type: null
+            type: PASSWORD_TYPE_UNKNOWN
             enabled: true
           taxCode: taxCode
           defaultBillingAddressId: defaultBillingAddressId
@@ -3212,7 +3214,7 @@ components:
       example:
         data:
           key: data
-        type: null
+        type: PASSWORD_TYPE_UNKNOWN
         enabled: true
       properties:
         data:
@@ -3303,7 +3305,7 @@ components:
             country: country
             grn: grn
             city: city
-            kind: null
+            kind: SHIPPING
             em:
               entityCode: entityCode
               entityType: entityType
@@ -3327,7 +3329,7 @@ components:
             country: country
             grn: grn
             city: city
-            kind: null
+            kind: SHIPPING
             em:
               entityCode: entityCode
               entityType: entityType
@@ -3364,8 +3366,8 @@ components:
             id: id
           surname: surname
           permissions:
-          - null
-          - null
+          - PERMISSION_UNKNOWN
+          - PERMISSION_UNKNOWN
           fiscalCode: fiscalCode
           additionalInfo: "{}"
           id: id
@@ -3387,7 +3389,7 @@ components:
           migratedPassword:
             data:
               key: data
-            type: null
+            type: PASSWORD_TYPE_UNKNOWN
             enabled: true
           taxCode: taxCode
           defaultBillingAddressId: defaultBillingAddressId
@@ -3406,7 +3408,7 @@ components:
             country: country
             grn: grn
             city: city
-            kind: null
+            kind: SHIPPING
             em:
               entityCode: entityCode
               entityType: entityType
@@ -3430,7 +3432,7 @@ components:
             country: country
             grn: grn
             city: city
-            kind: null
+            kind: SHIPPING
             em:
               entityCode: entityCode
               entityType: entityType
@@ -3467,8 +3469,8 @@ components:
             id: id
           surname: surname
           permissions:
-          - null
-          - null
+          - PERMISSION_UNKNOWN
+          - PERMISSION_UNKNOWN
           fiscalCode: fiscalCode
           additionalInfo: "{}"
           id: id
@@ -3490,7 +3492,7 @@ components:
           migratedPassword:
             data:
               key: data
-            type: null
+            type: PASSWORD_TYPE_UNKNOWN
             enabled: true
           taxCode: taxCode
           defaultBillingAddressId: defaultBillingAddressId
@@ -3830,6 +3832,12 @@ components:
           type: string
       type: object
     googlerpcStatus:
+      example:
+        code: 0
+        details:
+        - '@type': '@type'
+        - '@type': '@type'
+        message: message
       properties:
         code:
           format: int32
@@ -3974,6 +3982,10 @@ components:
       - NULL_VALUE
       type: string
   securitySchemes:
+    Authorization:
+      in: header
+      name: Authorization
+      type: apiKey
     standardAuthorization:
       flows:
         implicit:

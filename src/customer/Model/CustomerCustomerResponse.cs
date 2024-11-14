@@ -107,6 +107,7 @@ namespace customer.Model
             this.ExternalIds = externalIds;
             this.AgentGrn = agentGrn;
             this.AggregationId = aggregationId;
+            this.AdditionalProperties = new Dictionary<string, object>();
         }
 
         /// <summary>
@@ -320,6 +321,12 @@ namespace customer.Model
         public string AggregationId { get; set; }
 
         /// <summary>
+        /// Gets or Sets additional properties
+        /// </summary>
+        [JsonExtensionData]
+        public IDictionary<string, object> AdditionalProperties { get; set; }
+
+        /// <summary>
         /// Returns the string presentation of the object
         /// </summary>
         /// <returns>String presentation of the object</returns>
@@ -362,6 +369,7 @@ namespace customer.Model
             sb.Append("  ExternalIds: ").Append(ExternalIds).Append("\n");
             sb.Append("  AgentGrn: ").Append(AgentGrn).Append("\n");
             sb.Append("  AggregationId: ").Append(AggregationId).Append("\n");
+            sb.Append("  AdditionalProperties: ").Append(AdditionalProperties).Append("\n");
             sb.Append("}\n");
             return sb.ToString();
         }
@@ -380,7 +388,7 @@ namespace customer.Model
         /// </summary>
         /// <param name="validationContext">Validation context</param>
         /// <returns>Validation Result</returns>
-        IEnumerable<System.ComponentModel.DataAnnotations.ValidationResult> IValidatableObject.Validate(ValidationContext validationContext)
+        IEnumerable<ValidationResult> IValidatableObject.Validate(ValidationContext validationContext)
         {
             yield break;
         }

@@ -20,7 +20,7 @@ Name | Type | Description | Notes
 **FiscalCode**| **string** |   | [optional]
 **VatNumber**| **string** |   | [optional]
 **Kind**| **CustomerAddressCustomerResponseKind** |  for more information please, see Model/CustomerAddressCustomerResponseKind.php  | [optional]
-**VarDefault**| **bool** |   | [optional]
+**Default**| **bool** |   | [optional]
 **Country**| **string** |   | [optional]
 **CreatedAt**| **DateTime** |   | [optional]
 **UpdatedAt**| **DateTime** |   | [optional]

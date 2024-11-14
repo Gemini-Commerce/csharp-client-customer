@@ -49,6 +49,7 @@ namespace customer.Model
             this.TenantId = tenantId;
             this.CustomerIds = customerIds;
             this.Action = action;
+            this.AdditionalProperties = new Dictionary<string, object>();
         }
 
         /// <summary>
@@ -64,6 +65,12 @@ namespace customer.Model
         public List<string> CustomerIds { get; set; }
 
         /// <summary>
+        /// Gets or Sets additional properties
+        /// </summary>
+        [JsonExtensionData]
+        public IDictionary<string, object> AdditionalProperties { get; set; }
+
+        /// <summary>
         /// Returns the string presentation of the object
         /// </summary>
         /// <returns>String presentation of the object</returns>
@@ -74,6 +81,7 @@ namespace customer.Model
             sb.Append("  TenantId: ").Append(TenantId).Append("\n");
             sb.Append("  CustomerIds: ").Append(CustomerIds).Append("\n");
             sb.Append("  Action: ").Append(Action).Append("\n");
+            sb.Append("  AdditionalProperties: ").Append(AdditionalProperties).Append("\n");
             sb.Append("}\n");
             return sb.ToString();
         }
@@ -92,7 +100,7 @@ namespace customer.Model
         /// </summary>
         /// <param name="validationContext">Validation context</param>
         /// <returns>Validation Result</returns>
-        IEnumerable<System.ComponentModel.DataAnnotations.ValidationResult> IValidatableObject.Validate(ValidationContext validationContext)
+        IEnumerable<ValidationResult> IValidatableObject.Validate(ValidationContext validationContext)
         {
             yield break;
         }

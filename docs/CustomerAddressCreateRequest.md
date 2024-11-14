@@ -20,7 +20,7 @@ Name | Type | Description | Notes
 **FiscalCode**| **string** |   | [optional]
 **VatNumber**| **string** |   | [optional]
 **Kind**| **CustomerAddressCreateRequestKind** |  for more information please, see Model/CustomerAddressCreateRequestKind.php  | [optional]
-**VarDefault**| **bool** |   | [optional]
+**Default**| **bool** |   | [optional]
 **Country**| **string** |   | [optional]
 **Attributes**| [**Dictionary<string, ProtobufAny>**](ProtobufAny.md) |   | [optional]
 

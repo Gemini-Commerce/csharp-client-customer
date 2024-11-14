@@ -18,7 +18,7 @@ Name | Type | Description | Notes
 **FiscalCode**| **string** |   | [optional]
 **VatNumber**| **string** |   | [optional]
 **Kind**| **CustomerAddressEntityKind** |  for more information please, see Model/CustomerAddressEntityKind.php  | [optional]
-**VarDefault**| **bool** |   | [optional]
+**Default**| **bool** |   | [optional]
 **Country**| **string** |   | [optional]
 **Attributes**| [**Dictionary<string, ProtobufAny>**](ProtobufAny.md) |   | [optional]
 

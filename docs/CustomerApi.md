@@ -92,6 +92,11 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://cdp.api.gogemini.io";
+            // Configure API key authorization: Authorization
+            config.AddApiKey("Authorization", "YOUR_API_KEY");
+            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+            // config.AddApiKeyPrefix("Authorization", "Bearer");
+
             var apiInstance = new CustomerApi(config);
             var body = new CustomerCreateSubscriberRequest(); // CustomerCreateSubscriberRequest | 
 
@@ -142,7 +147,7 @@ catch (ApiException e)
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -180,6 +185,11 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://cdp.api.gogemini.io";
+            // Configure API key authorization: Authorization
+            config.AddApiKey("Authorization", "YOUR_API_KEY");
+            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+            // config.AddApiKeyPrefix("Authorization", "Bearer");
+
             var apiInstance = new CustomerApi(config);
             var body = new CustomerCreateSubscriberRequest(); // CustomerCreateSubscriberRequest | 
 
@@ -230,7 +240,7 @@ catch (ApiException e)
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -268,6 +278,11 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://cdp.api.gogemini.io";
+            // Configure API key authorization: Authorization
+            config.AddApiKey("Authorization", "YOUR_API_KEY");
+            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+            // config.AddApiKeyPrefix("Authorization", "Bearer");
+
             var apiInstance = new CustomerApi(config);
             var body = new CustomerUnsubscribeRequest(); // CustomerUnsubscribeRequest | 
 
@@ -318,7 +333,7 @@ catch (ApiException e)
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -356,6 +371,11 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://cdp.api.gogemini.io";
+            // Configure API key authorization: Authorization
+            config.AddApiKey("Authorization", "YOUR_API_KEY");
+            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+            // config.AddApiKeyPrefix("Authorization", "Bearer");
+
             var apiInstance = new CustomerApi(config);
             var body = new CustomerUnsubscribeRequest(); // CustomerUnsubscribeRequest | 
 
@@ -406,7 +426,7 @@ catch (ApiException e)
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -444,6 +464,11 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://cdp.api.gogemini.io";
+            // Configure API key authorization: Authorization
+            config.AddApiKey("Authorization", "YOUR_API_KEY");
+            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+            // config.AddApiKeyPrefix("Authorization", "Bearer");
+
             var apiInstance = new CustomerApi(config);
             var body = new CustomerAddCustomerToGroupRequest(); // CustomerAddCustomerToGroupRequest | 
 
@@ -494,7 +519,7 @@ catch (ApiException e)
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -532,6 +557,11 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://cdp.api.gogemini.io";
+            // Configure API key authorization: Authorization
+            config.AddApiKey("Authorization", "YOUR_API_KEY");
+            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+            // config.AddApiKeyPrefix("Authorization", "Bearer");
+
             var apiInstance = new CustomerApi(config);
             var body = new CustomerAddCustomerToGroupRequest(); // CustomerAddCustomerToGroupRequest | 
 
@@ -582,7 +612,7 @@ catch (ApiException e)
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -620,6 +650,11 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://cdp.api.gogemini.io";
+            // Configure API key authorization: Authorization
+            config.AddApiKey("Authorization", "YOUR_API_KEY");
+            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+            // config.AddApiKeyPrefix("Authorization", "Bearer");
+
             var apiInstance = new CustomerApi(config);
             var body = new CustomerAssignAgentRequest(); // CustomerAssignAgentRequest | 
 
@@ -670,7 +705,7 @@ catch (ApiException e)
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -708,6 +743,11 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://cdp.api.gogemini.io";
+            // Configure API key authorization: Authorization
+            config.AddApiKey("Authorization", "YOUR_API_KEY");
+            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+            // config.AddApiKeyPrefix("Authorization", "Bearer");
+
             var apiInstance = new CustomerApi(config);
             var body = new CustomerBulkUpdateRequest(); // CustomerBulkUpdateRequest | 
 
@@ -758,7 +798,7 @@ catch (ApiException e)
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -796,6 +836,11 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://cdp.api.gogemini.io";
+            // Configure API key authorization: Authorization
+            config.AddApiKey("Authorization", "YOUR_API_KEY");
+            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+            // config.AddApiKeyPrefix("Authorization", "Bearer");
+
             var apiInstance = new CustomerApi(config);
             var body = new CustomerBulkUpdateRequest(); // CustomerBulkUpdateRequest | 
 
@@ -846,7 +891,7 @@ catch (ApiException e)
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -884,6 +929,11 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://cdp.api.gogemini.io";
+            // Configure API key authorization: Authorization
+            config.AddApiKey("Authorization", "YOUR_API_KEY");
+            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+            // config.AddApiKeyPrefix("Authorization", "Bearer");
+
             var apiInstance = new CustomerApi(config);
             var body = new CustomerCreateRequest(); // CustomerCreateRequest | 
 
@@ -934,7 +984,7 @@ catch (ApiException e)
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -972,6 +1022,11 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://cdp.api.gogemini.io";
+            // Configure API key authorization: Authorization
+            config.AddApiKey("Authorization", "YOUR_API_KEY");
+            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+            // config.AddApiKeyPrefix("Authorization", "Bearer");
+
             var apiInstance = new CustomerApi(config);
             var body = new CustomerCreateRequest(); // CustomerCreateRequest | 
 
@@ -1022,7 +1077,7 @@ catch (ApiException e)
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -1060,6 +1115,11 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://cdp.api.gogemini.io";
+            // Configure API key authorization: Authorization
+            config.AddApiKey("Authorization", "YOUR_API_KEY");
+            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+            // config.AddApiKeyPrefix("Authorization", "Bearer");
+
             var apiInstance = new CustomerApi(config);
             var body = new CustomerAddressCreateRequest(); // CustomerAddressCreateRequest | 
 
@@ -1110,7 +1170,7 @@ catch (ApiException e)
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -1148,6 +1208,11 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://cdp.api.gogemini.io";
+            // Configure API key authorization: Authorization
+            config.AddApiKey("Authorization", "YOUR_API_KEY");
+            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+            // config.AddApiKeyPrefix("Authorization", "Bearer");
+
             var apiInstance = new CustomerApi(config);
             var body = new CustomerAddressCreateRequest(); // CustomerAddressCreateRequest | 
 
@@ -1198,7 +1263,7 @@ catch (ApiException e)
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -1236,6 +1301,11 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://cdp.api.gogemini.io";
+            // Configure API key authorization: Authorization
+            config.AddApiKey("Authorization", "YOUR_API_KEY");
+            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+            // config.AddApiKeyPrefix("Authorization", "Bearer");
+
             var apiInstance = new CustomerApi(config);
             var body = new CustomerCreateGroupRequest(); // CustomerCreateGroupRequest | 
 
@@ -1286,7 +1356,7 @@ catch (ApiException e)
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -1324,6 +1394,11 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://cdp.api.gogemini.io";
+            // Configure API key authorization: Authorization
+            config.AddApiKey("Authorization", "YOUR_API_KEY");
+            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+            // config.AddApiKeyPrefix("Authorization", "Bearer");
+
             var apiInstance = new CustomerApi(config);
             var body = new CustomerCreateGroupRequest(); // CustomerCreateGroupRequest | 
 
@@ -1374,7 +1449,7 @@ catch (ApiException e)
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -1412,6 +1487,11 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://cdp.api.gogemini.io";
+            // Configure API key authorization: Authorization
+            config.AddApiKey("Authorization", "YOUR_API_KEY");
+            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+            // config.AddApiKeyPrefix("Authorization", "Bearer");
+
             var apiInstance = new CustomerApi(config);
             var body = new CustomerCreateSubscriberRequest(); // CustomerCreateSubscriberRequest | 
 
@@ -1462,7 +1542,7 @@ catch (ApiException e)
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -1500,6 +1580,11 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://cdp.api.gogemini.io";
+            // Configure API key authorization: Authorization
+            config.AddApiKey("Authorization", "YOUR_API_KEY");
+            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+            // config.AddApiKeyPrefix("Authorization", "Bearer");
+
             var apiInstance = new CustomerApi(config);
             var body = new CustomerCreateSubscriberRequest(); // CustomerCreateSubscriberRequest | 
 
@@ -1550,7 +1635,7 @@ catch (ApiException e)
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -1588,6 +1673,11 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://cdp.api.gogemini.io";
+            // Configure API key authorization: Authorization
+            config.AddApiKey("Authorization", "YOUR_API_KEY");
+            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+            // config.AddApiKeyPrefix("Authorization", "Bearer");
+
             var apiInstance = new CustomerApi(config);
             var body = new CustomerAddressDeleteRequest(); // CustomerAddressDeleteRequest | 
 
@@ -1638,7 +1728,7 @@ catch (ApiException e)
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -1676,6 +1766,11 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://cdp.api.gogemini.io";
+            // Configure API key authorization: Authorization
+            config.AddApiKey("Authorization", "YOUR_API_KEY");
+            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+            // config.AddApiKeyPrefix("Authorization", "Bearer");
+
             var apiInstance = new CustomerApi(config);
             var body = new CustomerAddressDeleteRequest(); // CustomerAddressDeleteRequest | 
 
@@ -1726,7 +1821,7 @@ catch (ApiException e)
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -1764,6 +1859,11 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://cdp.api.gogemini.io";
+            // Configure API key authorization: Authorization
+            config.AddApiKey("Authorization", "YOUR_API_KEY");
+            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+            // config.AddApiKeyPrefix("Authorization", "Bearer");
+
             var apiInstance = new CustomerApi(config);
             var body = new CustomerDeleteGroupRequest(); // CustomerDeleteGroupRequest | 
 
@@ -1814,7 +1914,7 @@ catch (ApiException e)
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -1852,6 +1952,11 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://cdp.api.gogemini.io";
+            // Configure API key authorization: Authorization
+            config.AddApiKey("Authorization", "YOUR_API_KEY");
+            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+            // config.AddApiKeyPrefix("Authorization", "Bearer");
+
             var apiInstance = new CustomerApi(config);
             var body = new CustomerDeleteGroupRequest(); // CustomerDeleteGroupRequest | 
 
@@ -1902,7 +2007,7 @@ catch (ApiException e)
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -1940,6 +2045,11 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://cdp.api.gogemini.io";
+            // Configure API key authorization: Authorization
+            config.AddApiKey("Authorization", "YOUR_API_KEY");
+            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+            // config.AddApiKeyPrefix("Authorization", "Bearer");
+
             var apiInstance = new CustomerApi(config);
             var body = new CustomerFindManyRequest(); // CustomerFindManyRequest | 
 
@@ -1990,7 +2100,7 @@ catch (ApiException e)
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -2028,6 +2138,11 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://cdp.api.gogemini.io";
+            // Configure API key authorization: Authorization
+            config.AddApiKey("Authorization", "YOUR_API_KEY");
+            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+            // config.AddApiKeyPrefix("Authorization", "Bearer");
+
             var apiInstance = new CustomerApi(config);
             var body = new CustomerFindManyRequest(); // CustomerFindManyRequest | 
 
@@ -2078,7 +2193,7 @@ catch (ApiException e)
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -2116,6 +2231,11 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://cdp.api.gogemini.io";
+            // Configure API key authorization: Authorization
+            config.AddApiKey("Authorization", "YOUR_API_KEY");
+            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+            // config.AddApiKeyPrefix("Authorization", "Bearer");
+
             var apiInstance = new CustomerApi(config);
             var body = new CustomerFindByEmailRequest(); // CustomerFindByEmailRequest | 
 
@@ -2166,7 +2286,7 @@ catch (ApiException e)
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -2204,6 +2324,11 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://cdp.api.gogemini.io";
+            // Configure API key authorization: Authorization
+            config.AddApiKey("Authorization", "YOUR_API_KEY");
+            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+            // config.AddApiKeyPrefix("Authorization", "Bearer");
+
             var apiInstance = new CustomerApi(config);
             var body = new CustomerFindByEmailRequest(); // CustomerFindByEmailRequest | 
 
@@ -2254,7 +2379,7 @@ catch (ApiException e)
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -2292,6 +2417,11 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://cdp.api.gogemini.io";
+            // Configure API key authorization: Authorization
+            config.AddApiKey("Authorization", "YOUR_API_KEY");
+            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+            // config.AddApiKeyPrefix("Authorization", "Bearer");
+
             var apiInstance = new CustomerApi(config);
             var body = new CustomerFindByIdRequest(); // CustomerFindByIdRequest | 
 
@@ -2342,7 +2472,7 @@ catch (ApiException e)
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -2380,6 +2510,11 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://cdp.api.gogemini.io";
+            // Configure API key authorization: Authorization
+            config.AddApiKey("Authorization", "YOUR_API_KEY");
+            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+            // config.AddApiKeyPrefix("Authorization", "Bearer");
+
             var apiInstance = new CustomerApi(config);
             var body = new CustomerFindByIdRequest(); // CustomerFindByIdRequest | 
 
@@ -2430,7 +2565,7 @@ catch (ApiException e)
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -2468,6 +2603,11 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://cdp.api.gogemini.io";
+            // Configure API key authorization: Authorization
+            config.AddApiKey("Authorization", "YOUR_API_KEY");
+            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+            // config.AddApiKeyPrefix("Authorization", "Bearer");
+
             var apiInstance = new CustomerApi(config);
             var body = new CustomerFindSubscriberByEmailRequest(); // CustomerFindSubscriberByEmailRequest | 
 
@@ -2518,7 +2658,7 @@ catch (ApiException e)
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -2556,6 +2696,11 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://cdp.api.gogemini.io";
+            // Configure API key authorization: Authorization
+            config.AddApiKey("Authorization", "YOUR_API_KEY");
+            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+            // config.AddApiKeyPrefix("Authorization", "Bearer");
+
             var apiInstance = new CustomerApi(config);
             var body = new CustomerFindSubscriberByEmailRequest(); // CustomerFindSubscriberByEmailRequest | 
 
@@ -2606,7 +2751,7 @@ catch (ApiException e)
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -2644,6 +2789,11 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://cdp.api.gogemini.io";
+            // Configure API key authorization: Authorization
+            config.AddApiKey("Authorization", "YOUR_API_KEY");
+            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+            // config.AddApiKeyPrefix("Authorization", "Bearer");
+
             var apiInstance = new CustomerApi(config);
             var body = new CustomerFindSubscriberByIdRequest(); // CustomerFindSubscriberByIdRequest | 
 
@@ -2694,7 +2844,7 @@ catch (ApiException e)
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -2732,6 +2882,11 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://cdp.api.gogemini.io";
+            // Configure API key authorization: Authorization
+            config.AddApiKey("Authorization", "YOUR_API_KEY");
+            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+            // config.AddApiKeyPrefix("Authorization", "Bearer");
+
             var apiInstance = new CustomerApi(config);
             var body = new CustomerFindSubscriberByIdRequest(); // CustomerFindSubscriberByIdRequest | 
 
@@ -2782,7 +2937,7 @@ catch (ApiException e)
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -2820,6 +2975,11 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://cdp.api.gogemini.io";
+            // Configure API key authorization: Authorization
+            config.AddApiKey("Authorization", "YOUR_API_KEY");
+            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+            // config.AddApiKeyPrefix("Authorization", "Bearer");
+
             var apiInstance = new CustomerApi(config);
             var body = new CustomerGetGroupByCodeRequest(); // CustomerGetGroupByCodeRequest | 
 
@@ -2870,7 +3030,7 @@ catch (ApiException e)
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -2908,6 +3068,11 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://cdp.api.gogemini.io";
+            // Configure API key authorization: Authorization
+            config.AddApiKey("Authorization", "YOUR_API_KEY");
+            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+            // config.AddApiKeyPrefix("Authorization", "Bearer");
+
             var apiInstance = new CustomerApi(config);
             var body = new CustomerGetGroupByCodeRequest(); // CustomerGetGroupByCodeRequest | 
 
@@ -2958,7 +3123,7 @@ catch (ApiException e)
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -2996,6 +3161,11 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://cdp.api.gogemini.io";
+            // Configure API key authorization: Authorization
+            config.AddApiKey("Authorization", "YOUR_API_KEY");
+            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+            // config.AddApiKeyPrefix("Authorization", "Bearer");
+
             var apiInstance = new CustomerApi(config);
             var body = new CustomerGetGroupByIdRequest(); // CustomerGetGroupByIdRequest | 
 
@@ -3046,7 +3216,7 @@ catch (ApiException e)
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -3084,6 +3254,11 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://cdp.api.gogemini.io";
+            // Configure API key authorization: Authorization
+            config.AddApiKey("Authorization", "YOUR_API_KEY");
+            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+            // config.AddApiKeyPrefix("Authorization", "Bearer");
+
             var apiInstance = new CustomerApi(config);
             var body = new CustomerGetGroupByIdRequest(); // CustomerGetGroupByIdRequest | 
 
@@ -3134,7 +3309,7 @@ catch (ApiException e)
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -3172,6 +3347,11 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://cdp.api.gogemini.io";
+            // Configure API key authorization: Authorization
+            config.AddApiKey("Authorization", "YOUR_API_KEY");
+            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+            // config.AddApiKeyPrefix("Authorization", "Bearer");
+
             var apiInstance = new CustomerApi(config);
             var body = new CustomerGrantPermissionsRequest(); // CustomerGrantPermissionsRequest | 
 
@@ -3222,7 +3402,7 @@ catch (ApiException e)
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -3260,6 +3440,11 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://cdp.api.gogemini.io";
+            // Configure API key authorization: Authorization
+            config.AddApiKey("Authorization", "YOUR_API_KEY");
+            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+            // config.AddApiKeyPrefix("Authorization", "Bearer");
+
             var apiInstance = new CustomerApi(config);
             var body = new CustomerGrantPermissionsRequest(); // CustomerGrantPermissionsRequest | 
 
@@ -3310,7 +3495,7 @@ catch (ApiException e)
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -3348,6 +3533,11 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://cdp.api.gogemini.io";
+            // Configure API key authorization: Authorization
+            config.AddApiKey("Authorization", "YOUR_API_KEY");
+            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+            // config.AddApiKeyPrefix("Authorization", "Bearer");
+
             var apiInstance = new CustomerApi(config);
             var body = new CustomerListConsentsRequest(); // CustomerListConsentsRequest | 
 
@@ -3400,7 +3590,7 @@ catch (ApiException e)
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -3438,6 +3628,11 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://cdp.api.gogemini.io";
+            // Configure API key authorization: Authorization
+            config.AddApiKey("Authorization", "YOUR_API_KEY");
+            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+            // config.AddApiKeyPrefix("Authorization", "Bearer");
+
             var apiInstance = new CustomerApi(config);
             var body = new CustomerListCustomersRequest(); // CustomerListCustomersRequest | 
 
@@ -3488,7 +3683,7 @@ catch (ApiException e)
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -3526,6 +3721,11 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://cdp.api.gogemini.io";
+            // Configure API key authorization: Authorization
+            config.AddApiKey("Authorization", "YOUR_API_KEY");
+            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+            // config.AddApiKeyPrefix("Authorization", "Bearer");
+
             var apiInstance = new CustomerApi(config);
             var body = new CustomerListCustomersRequest(); // CustomerListCustomersRequest | 
 
@@ -3576,7 +3776,7 @@ catch (ApiException e)
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -3614,6 +3814,11 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://cdp.api.gogemini.io";
+            // Configure API key authorization: Authorization
+            config.AddApiKey("Authorization", "YOUR_API_KEY");
+            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+            // config.AddApiKeyPrefix("Authorization", "Bearer");
+
             var apiInstance = new CustomerApi(config);
             var body = new CustomerListGroupsRequest(); // CustomerListGroupsRequest | 
 
@@ -3664,7 +3869,7 @@ catch (ApiException e)
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -3702,6 +3907,11 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://cdp.api.gogemini.io";
+            // Configure API key authorization: Authorization
+            config.AddApiKey("Authorization", "YOUR_API_KEY");
+            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+            // config.AddApiKeyPrefix("Authorization", "Bearer");
+
             var apiInstance = new CustomerApi(config);
             var body = new CustomerListGroupsRequest(); // CustomerListGroupsRequest | 
 
@@ -3752,7 +3962,7 @@ catch (ApiException e)
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -3790,6 +4000,11 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://cdp.api.gogemini.io";
+            // Configure API key authorization: Authorization
+            config.AddApiKey("Authorization", "YOUR_API_KEY");
+            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+            // config.AddApiKeyPrefix("Authorization", "Bearer");
+
             var apiInstance = new CustomerApi(config);
             var body = new CustomerRemoveCustomerFromGroupRequest(); // CustomerRemoveCustomerFromGroupRequest | 
 
@@ -3840,7 +4055,7 @@ catch (ApiException e)
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -3878,6 +4093,11 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://cdp.api.gogemini.io";
+            // Configure API key authorization: Authorization
+            config.AddApiKey("Authorization", "YOUR_API_KEY");
+            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+            // config.AddApiKeyPrefix("Authorization", "Bearer");
+
             var apiInstance = new CustomerApi(config);
             var body = new CustomerRemoveCustomerFromGroupRequest(); // CustomerRemoveCustomerFromGroupRequest | 
 
@@ -3928,7 +4148,7 @@ catch (ApiException e)
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -3966,6 +4186,11 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://cdp.api.gogemini.io";
+            // Configure API key authorization: Authorization
+            config.AddApiKey("Authorization", "YOUR_API_KEY");
+            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+            // config.AddApiKeyPrefix("Authorization", "Bearer");
+
             var apiInstance = new CustomerApi(config);
             var body = new CustomerRemoveDefaultAddressRequest(); // CustomerRemoveDefaultAddressRequest | 
 
@@ -4016,7 +4241,7 @@ catch (ApiException e)
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -4054,6 +4279,11 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://cdp.api.gogemini.io";
+            // Configure API key authorization: Authorization
+            config.AddApiKey("Authorization", "YOUR_API_KEY");
+            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+            // config.AddApiKeyPrefix("Authorization", "Bearer");
+
             var apiInstance = new CustomerApi(config);
             var body = new CustomerRemoveDefaultAddressRequest(); // CustomerRemoveDefaultAddressRequest | 
 
@@ -4104,7 +4334,7 @@ catch (ApiException e)
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -4142,6 +4372,11 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://cdp.api.gogemini.io";
+            // Configure API key authorization: Authorization
+            config.AddApiKey("Authorization", "YOUR_API_KEY");
+            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+            // config.AddApiKeyPrefix("Authorization", "Bearer");
+
             var apiInstance = new CustomerApi(config);
             var body = new CustomerRevokePermissionsRequest(); // CustomerRevokePermissionsRequest | 
 
@@ -4192,7 +4427,7 @@ catch (ApiException e)
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -4230,6 +4465,11 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://cdp.api.gogemini.io";
+            // Configure API key authorization: Authorization
+            config.AddApiKey("Authorization", "YOUR_API_KEY");
+            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+            // config.AddApiKeyPrefix("Authorization", "Bearer");
+
             var apiInstance = new CustomerApi(config);
             var body = new CustomerRevokePermissionsRequest(); // CustomerRevokePermissionsRequest | 
 
@@ -4280,7 +4520,7 @@ catch (ApiException e)
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -4318,6 +4558,11 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://cdp.api.gogemini.io";
+            // Configure API key authorization: Authorization
+            config.AddApiKey("Authorization", "YOUR_API_KEY");
+            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+            // config.AddApiKeyPrefix("Authorization", "Bearer");
+
             var apiInstance = new CustomerApi(config);
             var body = new CustomerSearchRequest(); // CustomerSearchRequest | 
 
@@ -4368,7 +4613,7 @@ catch (ApiException e)
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -4406,6 +4651,11 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://cdp.api.gogemini.io";
+            // Configure API key authorization: Authorization
+            config.AddApiKey("Authorization", "YOUR_API_KEY");
+            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+            // config.AddApiKeyPrefix("Authorization", "Bearer");
+
             var apiInstance = new CustomerApi(config);
             var body = new CustomerSearchRequest(); // CustomerSearchRequest | 
 
@@ -4456,7 +4706,7 @@ catch (ApiException e)
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -4494,6 +4744,11 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://cdp.api.gogemini.io";
+            // Configure API key authorization: Authorization
+            config.AddApiKey("Authorization", "YOUR_API_KEY");
+            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+            // config.AddApiKeyPrefix("Authorization", "Bearer");
+
             var apiInstance = new CustomerApi(config);
             var body = new CustomerSetDefaultAddressRequest(); // CustomerSetDefaultAddressRequest | 
 
@@ -4544,7 +4799,7 @@ catch (ApiException e)
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -4582,6 +4837,11 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://cdp.api.gogemini.io";
+            // Configure API key authorization: Authorization
+            config.AddApiKey("Authorization", "YOUR_API_KEY");
+            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+            // config.AddApiKeyPrefix("Authorization", "Bearer");
+
             var apiInstance = new CustomerApi(config);
             var body = new CustomerSetDefaultAddressRequest(); // CustomerSetDefaultAddressRequest | 
 
@@ -4632,7 +4892,7 @@ catch (ApiException e)
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -4670,6 +4930,11 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://cdp.api.gogemini.io";
+            // Configure API key authorization: Authorization
+            config.AddApiKey("Authorization", "YOUR_API_KEY");
+            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+            // config.AddApiKeyPrefix("Authorization", "Bearer");
+
             var apiInstance = new CustomerApi(config);
             var body = new CustomerSetPermissionsRequest(); // CustomerSetPermissionsRequest | 
 
@@ -4720,7 +4985,7 @@ catch (ApiException e)
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -4758,6 +5023,11 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://cdp.api.gogemini.io";
+            // Configure API key authorization: Authorization
+            config.AddApiKey("Authorization", "YOUR_API_KEY");
+            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+            // config.AddApiKeyPrefix("Authorization", "Bearer");
+
             var apiInstance = new CustomerApi(config);
             var body = new CustomerSetPermissionsRequest(); // CustomerSetPermissionsRequest | 
 
@@ -4808,7 +5078,7 @@ catch (ApiException e)
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -4846,6 +5116,11 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://cdp.api.gogemini.io";
+            // Configure API key authorization: Authorization
+            config.AddApiKey("Authorization", "YOUR_API_KEY");
+            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+            // config.AddApiKeyPrefix("Authorization", "Bearer");
+
             var apiInstance = new CustomerApi(config);
             var body = new CustomerUnassignAgentRequest(); // CustomerUnassignAgentRequest | 
 
@@ -4896,7 +5171,7 @@ catch (ApiException e)
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -4934,6 +5209,11 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://cdp.api.gogemini.io";
+            // Configure API key authorization: Authorization
+            config.AddApiKey("Authorization", "YOUR_API_KEY");
+            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+            // config.AddApiKeyPrefix("Authorization", "Bearer");
+
             var apiInstance = new CustomerApi(config);
             var body = new CustomerUnsubscribeRequest(); // CustomerUnsubscribeRequest | 
 
@@ -4984,7 +5264,7 @@ catch (ApiException e)
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -5022,6 +5302,11 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://cdp.api.gogemini.io";
+            // Configure API key authorization: Authorization
+            config.AddApiKey("Authorization", "YOUR_API_KEY");
+            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+            // config.AddApiKeyPrefix("Authorization", "Bearer");
+
             var apiInstance = new CustomerApi(config);
             var body = new CustomerUnsubscribeRequest(); // CustomerUnsubscribeRequest | 
 
@@ -5072,7 +5357,7 @@ catch (ApiException e)
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -5110,6 +5395,11 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://cdp.api.gogemini.io";
+            // Configure API key authorization: Authorization
+            config.AddApiKey("Authorization", "YOUR_API_KEY");
+            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+            // config.AddApiKeyPrefix("Authorization", "Bearer");
+
             var apiInstance = new CustomerApi(config);
             var body = new CustomerUpdateRequest(); // CustomerUpdateRequest | 
 
@@ -5160,7 +5450,7 @@ catch (ApiException e)
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -5198,6 +5488,11 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://cdp.api.gogemini.io";
+            // Configure API key authorization: Authorization
+            config.AddApiKey("Authorization", "YOUR_API_KEY");
+            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+            // config.AddApiKeyPrefix("Authorization", "Bearer");
+
             var apiInstance = new CustomerApi(config);
             var body = new CustomerUpdateRequest(); // CustomerUpdateRequest | 
 
@@ -5248,7 +5543,7 @@ catch (ApiException e)
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -5286,6 +5581,11 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://cdp.api.gogemini.io";
+            // Configure API key authorization: Authorization
+            config.AddApiKey("Authorization", "YOUR_API_KEY");
+            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+            // config.AddApiKeyPrefix("Authorization", "Bearer");
+
             var apiInstance = new CustomerApi(config);
             var body = new CustomerAddressUpdateRequest(); // CustomerAddressUpdateRequest | 
 
@@ -5336,7 +5636,7 @@ catch (ApiException e)
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -5374,6 +5674,11 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://cdp.api.gogemini.io";
+            // Configure API key authorization: Authorization
+            config.AddApiKey("Authorization", "YOUR_API_KEY");
+            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+            // config.AddApiKeyPrefix("Authorization", "Bearer");
+
             var apiInstance = new CustomerApi(config);
             var body = new CustomerAddressUpdateRequest(); // CustomerAddressUpdateRequest | 
 
@@ -5424,7 +5729,7 @@ catch (ApiException e)
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -5462,6 +5767,11 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://cdp.api.gogemini.io";
+            // Configure API key authorization: Authorization
+            config.AddApiKey("Authorization", "YOUR_API_KEY");
+            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+            // config.AddApiKeyPrefix("Authorization", "Bearer");
+
             var apiInstance = new CustomerApi(config);
             var body = new CustomerUpdateGroupRequest(); // CustomerUpdateGroupRequest | 
 
@@ -5512,7 +5822,7 @@ catch (ApiException e)
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -5550,6 +5860,11 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://cdp.api.gogemini.io";
+            // Configure API key authorization: Authorization
+            config.AddApiKey("Authorization", "YOUR_API_KEY");
+            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+            // config.AddApiKeyPrefix("Authorization", "Bearer");
+
             var apiInstance = new CustomerApi(config);
             var body = new CustomerUpdateGroupRequest(); // CustomerUpdateGroupRequest | 
 
@@ -5600,7 +5915,7 @@ catch (ApiException e)
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -5638,6 +5953,11 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://cdp.api.gogemini.io";
+            // Configure API key authorization: Authorization
+            config.AddApiKey("Authorization", "YOUR_API_KEY");
+            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+            // config.AddApiKeyPrefix("Authorization", "Bearer");
+
             var apiInstance = new CustomerApi(config);
             var body = new CustomerUpdateSubscriberRequest(); // CustomerUpdateSubscriberRequest | 
 
@@ -5688,7 +6008,7 @@ catch (ApiException e)
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -5726,6 +6046,11 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://cdp.api.gogemini.io";
+            // Configure API key authorization: Authorization
+            config.AddApiKey("Authorization", "YOUR_API_KEY");
+            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+            // config.AddApiKeyPrefix("Authorization", "Bearer");
+
             var apiInstance = new CustomerApi(config);
             var body = new CustomerUpdateSubscriberRequest(); // CustomerUpdateSubscriberRequest | 
 
@@ -5776,7 +6101,7 @@ catch (ApiException e)
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 

@@ -39,6 +39,7 @@ namespace customer.Model
         public CustomerCreateConsentRequest(Dictionary<string, bool> preferences = default(Dictionary<string, bool>))
         {
             this.Preferences = preferences;
+            this.AdditionalProperties = new Dictionary<string, object>();
         }
 
         /// <summary>
@@ -46,6 +47,12 @@ namespace customer.Model
         /// </summary>
         [DataMember(Name = "preferences", EmitDefaultValue = false)]
         public Dictionary<string, bool> Preferences { get; set; }
+
+        /// <summary>
+        /// Gets or Sets additional properties
+        /// </summary>
+        [JsonExtensionData]
+        public IDictionary<string, object> AdditionalProperties { get; set; }
 
         /// <summary>
         /// Returns the string presentation of the object
@@ -56,6 +63,7 @@ namespace customer.Model
             StringBuilder sb = new StringBuilder();
             sb.Append("class CustomerCreateConsentRequest {\n");
             sb.Append("  Preferences: ").Append(Preferences).Append("\n");
+            sb.Append("  AdditionalProperties: ").Append(AdditionalProperties).Append("\n");
             sb.Append("}\n");
             return sb.ToString();
         }
@@ -74,7 +82,7 @@ namespace customer.Model
         /// </summary>
         /// <param name="validationContext">Validation context</param>
         /// <returns>Validation Result</returns>
-        IEnumerable<System.ComponentModel.DataAnnotations.ValidationResult> IValidatableObject.Validate(ValidationContext validationContext)
+        IEnumerable<ValidationResult> IValidatableObject.Validate(ValidationContext validationContext)
         {
             yield break;
         }

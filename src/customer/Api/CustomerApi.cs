@@ -1348,7 +1348,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerSubscriberResponse</returns>
-        System.Threading.Tasks.Task<CustomerSubscriberResponse> CustomerAcquireSubscriberAsync(CustomerCreateSubscriberRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<CustomerSubscriberResponse> CustomerAcquireSubscriberAsync(CustomerCreateSubscriberRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// 
@@ -1361,7 +1361,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerSubscriberResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<CustomerSubscriberResponse>> CustomerAcquireSubscriberWithHttpInfoAsync(CustomerCreateSubscriberRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<CustomerSubscriberResponse>> CustomerAcquireSubscriberWithHttpInfoAsync(CustomerCreateSubscriberRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// 
         /// </summary>
@@ -1373,7 +1373,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerSubscriberResponse</returns>
-        System.Threading.Tasks.Task<CustomerSubscriberResponse> CustomerAcquireSubscriber2Async(CustomerCreateSubscriberRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<CustomerSubscriberResponse> CustomerAcquireSubscriber2Async(CustomerCreateSubscriberRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// 
@@ -1386,7 +1386,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerSubscriberResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<CustomerSubscriberResponse>> CustomerAcquireSubscriber2WithHttpInfoAsync(CustomerCreateSubscriberRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<CustomerSubscriberResponse>> CustomerAcquireSubscriber2WithHttpInfoAsync(CustomerCreateSubscriberRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// 
         /// </summary>
@@ -1398,7 +1398,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerUnsubscribeResponse</returns>
-        System.Threading.Tasks.Task<CustomerUnsubscribeResponse> CustomerAcquireUnsubscriberAsync(CustomerUnsubscribeRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<CustomerUnsubscribeResponse> CustomerAcquireUnsubscriberAsync(CustomerUnsubscribeRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// 
@@ -1411,7 +1411,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerUnsubscribeResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<CustomerUnsubscribeResponse>> CustomerAcquireUnsubscriberWithHttpInfoAsync(CustomerUnsubscribeRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<CustomerUnsubscribeResponse>> CustomerAcquireUnsubscriberWithHttpInfoAsync(CustomerUnsubscribeRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// 
         /// </summary>
@@ -1423,7 +1423,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerUnsubscribeResponse</returns>
-        System.Threading.Tasks.Task<CustomerUnsubscribeResponse> CustomerAcquireUnsubscriber2Async(CustomerUnsubscribeRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<CustomerUnsubscribeResponse> CustomerAcquireUnsubscriber2Async(CustomerUnsubscribeRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// 
@@ -1436,7 +1436,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerUnsubscribeResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<CustomerUnsubscribeResponse>> CustomerAcquireUnsubscriber2WithHttpInfoAsync(CustomerUnsubscribeRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<CustomerUnsubscribeResponse>> CustomerAcquireUnsubscriber2WithHttpInfoAsync(CustomerUnsubscribeRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// 
         /// </summary>
@@ -1448,7 +1448,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerGroupResponse</returns>
-        System.Threading.Tasks.Task<CustomerGroupResponse> CustomerAddCustomerToGroupAsync(CustomerAddCustomerToGroupRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<CustomerGroupResponse> CustomerAddCustomerToGroupAsync(CustomerAddCustomerToGroupRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// 
@@ -1461,7 +1461,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerGroupResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<CustomerGroupResponse>> CustomerAddCustomerToGroupWithHttpInfoAsync(CustomerAddCustomerToGroupRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<CustomerGroupResponse>> CustomerAddCustomerToGroupWithHttpInfoAsync(CustomerAddCustomerToGroupRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// 
         /// </summary>
@@ -1473,7 +1473,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerGroupResponse</returns>
-        System.Threading.Tasks.Task<CustomerGroupResponse> CustomerAddCustomerToGroup2Async(CustomerAddCustomerToGroupRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<CustomerGroupResponse> CustomerAddCustomerToGroup2Async(CustomerAddCustomerToGroupRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// 
@@ -1486,7 +1486,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerGroupResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<CustomerGroupResponse>> CustomerAddCustomerToGroup2WithHttpInfoAsync(CustomerAddCustomerToGroupRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<CustomerGroupResponse>> CustomerAddCustomerToGroup2WithHttpInfoAsync(CustomerAddCustomerToGroupRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// 
         /// </summary>
@@ -1498,7 +1498,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of Object</returns>
-        System.Threading.Tasks.Task<Object> CustomerAssignAgentAsync(CustomerAssignAgentRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<Object> CustomerAssignAgentAsync(CustomerAssignAgentRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// 
@@ -1511,7 +1511,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (Object)</returns>
-        System.Threading.Tasks.Task<ApiResponse<Object>> CustomerAssignAgentWithHttpInfoAsync(CustomerAssignAgentRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<Object>> CustomerAssignAgentWithHttpInfoAsync(CustomerAssignAgentRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// 
         /// </summary>
@@ -1523,7 +1523,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerBulkUpdateResponse</returns>
-        System.Threading.Tasks.Task<CustomerBulkUpdateResponse> CustomerBulkUpdateAsync(CustomerBulkUpdateRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<CustomerBulkUpdateResponse> CustomerBulkUpdateAsync(CustomerBulkUpdateRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// 
@@ -1536,7 +1536,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerBulkUpdateResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<CustomerBulkUpdateResponse>> CustomerBulkUpdateWithHttpInfoAsync(CustomerBulkUpdateRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<CustomerBulkUpdateResponse>> CustomerBulkUpdateWithHttpInfoAsync(CustomerBulkUpdateRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// 
         /// </summary>
@@ -1548,7 +1548,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerBulkUpdateResponse</returns>
-        System.Threading.Tasks.Task<CustomerBulkUpdateResponse> CustomerBulkUpdate2Async(CustomerBulkUpdateRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<CustomerBulkUpdateResponse> CustomerBulkUpdate2Async(CustomerBulkUpdateRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// 
@@ -1561,7 +1561,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerBulkUpdateResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<CustomerBulkUpdateResponse>> CustomerBulkUpdate2WithHttpInfoAsync(CustomerBulkUpdateRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<CustomerBulkUpdateResponse>> CustomerBulkUpdate2WithHttpInfoAsync(CustomerBulkUpdateRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// 
         /// </summary>
@@ -1573,7 +1573,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerCustomerResponse</returns>
-        System.Threading.Tasks.Task<CustomerCustomerResponse> CustomerCreateAsync(CustomerCreateRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<CustomerCustomerResponse> CustomerCreateAsync(CustomerCreateRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// 
@@ -1586,7 +1586,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerCustomerResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<CustomerCustomerResponse>> CustomerCreateWithHttpInfoAsync(CustomerCreateRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<CustomerCustomerResponse>> CustomerCreateWithHttpInfoAsync(CustomerCreateRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// 
         /// </summary>
@@ -1598,7 +1598,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerCustomerResponse</returns>
-        System.Threading.Tasks.Task<CustomerCustomerResponse> CustomerCreate2Async(CustomerCreateRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<CustomerCustomerResponse> CustomerCreate2Async(CustomerCreateRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// 
@@ -1611,7 +1611,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerCustomerResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<CustomerCustomerResponse>> CustomerCreate2WithHttpInfoAsync(CustomerCreateRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<CustomerCustomerResponse>> CustomerCreate2WithHttpInfoAsync(CustomerCreateRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// 
         /// </summary>
@@ -1623,7 +1623,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerAddressCustomerResponse</returns>
-        System.Threading.Tasks.Task<CustomerAddressCustomerResponse> CustomerCreateAddressAsync(CustomerAddressCreateRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<CustomerAddressCustomerResponse> CustomerCreateAddressAsync(CustomerAddressCreateRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// 
@@ -1636,7 +1636,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerAddressCustomerResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<CustomerAddressCustomerResponse>> CustomerCreateAddressWithHttpInfoAsync(CustomerAddressCreateRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<CustomerAddressCustomerResponse>> CustomerCreateAddressWithHttpInfoAsync(CustomerAddressCreateRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// 
         /// </summary>
@@ -1648,7 +1648,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerAddressCustomerResponse</returns>
-        System.Threading.Tasks.Task<CustomerAddressCustomerResponse> CustomerCreateAddress2Async(CustomerAddressCreateRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<CustomerAddressCustomerResponse> CustomerCreateAddress2Async(CustomerAddressCreateRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// 
@@ -1661,7 +1661,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerAddressCustomerResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<CustomerAddressCustomerResponse>> CustomerCreateAddress2WithHttpInfoAsync(CustomerAddressCreateRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<CustomerAddressCustomerResponse>> CustomerCreateAddress2WithHttpInfoAsync(CustomerAddressCreateRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// 
         /// </summary>
@@ -1673,7 +1673,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerGroupResponse</returns>
-        System.Threading.Tasks.Task<CustomerGroupResponse> CustomerCreateGroupAsync(CustomerCreateGroupRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<CustomerGroupResponse> CustomerCreateGroupAsync(CustomerCreateGroupRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// 
@@ -1686,7 +1686,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerGroupResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<CustomerGroupResponse>> CustomerCreateGroupWithHttpInfoAsync(CustomerCreateGroupRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<CustomerGroupResponse>> CustomerCreateGroupWithHttpInfoAsync(CustomerCreateGroupRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// 
         /// </summary>
@@ -1698,7 +1698,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerGroupResponse</returns>
-        System.Threading.Tasks.Task<CustomerGroupResponse> CustomerCreateGroup2Async(CustomerCreateGroupRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<CustomerGroupResponse> CustomerCreateGroup2Async(CustomerCreateGroupRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// 
@@ -1711,7 +1711,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerGroupResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<CustomerGroupResponse>> CustomerCreateGroup2WithHttpInfoAsync(CustomerCreateGroupRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<CustomerGroupResponse>> CustomerCreateGroup2WithHttpInfoAsync(CustomerCreateGroupRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// 
         /// </summary>
@@ -1723,7 +1723,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerSubscriberResponse</returns>
-        System.Threading.Tasks.Task<CustomerSubscriberResponse> CustomerCreateSubscriberAsync(CustomerCreateSubscriberRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<CustomerSubscriberResponse> CustomerCreateSubscriberAsync(CustomerCreateSubscriberRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// 
@@ -1736,7 +1736,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerSubscriberResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<CustomerSubscriberResponse>> CustomerCreateSubscriberWithHttpInfoAsync(CustomerCreateSubscriberRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<CustomerSubscriberResponse>> CustomerCreateSubscriberWithHttpInfoAsync(CustomerCreateSubscriberRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// 
         /// </summary>
@@ -1748,7 +1748,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerSubscriberResponse</returns>
-        System.Threading.Tasks.Task<CustomerSubscriberResponse> CustomerCreateSubscriber2Async(CustomerCreateSubscriberRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<CustomerSubscriberResponse> CustomerCreateSubscriber2Async(CustomerCreateSubscriberRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// 
@@ -1761,7 +1761,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerSubscriberResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<CustomerSubscriberResponse>> CustomerCreateSubscriber2WithHttpInfoAsync(CustomerCreateSubscriberRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<CustomerSubscriberResponse>> CustomerCreateSubscriber2WithHttpInfoAsync(CustomerCreateSubscriberRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// 
         /// </summary>
@@ -1773,7 +1773,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerAddressDeleteResponse</returns>
-        System.Threading.Tasks.Task<CustomerAddressDeleteResponse> CustomerDeleteAddressAsync(CustomerAddressDeleteRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<CustomerAddressDeleteResponse> CustomerDeleteAddressAsync(CustomerAddressDeleteRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// 
@@ -1786,7 +1786,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerAddressDeleteResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<CustomerAddressDeleteResponse>> CustomerDeleteAddressWithHttpInfoAsync(CustomerAddressDeleteRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<CustomerAddressDeleteResponse>> CustomerDeleteAddressWithHttpInfoAsync(CustomerAddressDeleteRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// 
         /// </summary>
@@ -1798,7 +1798,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerAddressDeleteResponse</returns>
-        System.Threading.Tasks.Task<CustomerAddressDeleteResponse> CustomerDeleteAddress2Async(CustomerAddressDeleteRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<CustomerAddressDeleteResponse> CustomerDeleteAddress2Async(CustomerAddressDeleteRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// 
@@ -1811,7 +1811,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerAddressDeleteResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<CustomerAddressDeleteResponse>> CustomerDeleteAddress2WithHttpInfoAsync(CustomerAddressDeleteRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<CustomerAddressDeleteResponse>> CustomerDeleteAddress2WithHttpInfoAsync(CustomerAddressDeleteRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// 
         /// </summary>
@@ -1823,7 +1823,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerDeleteGroupResponse</returns>
-        System.Threading.Tasks.Task<CustomerDeleteGroupResponse> CustomerDeleteGroupAsync(CustomerDeleteGroupRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<CustomerDeleteGroupResponse> CustomerDeleteGroupAsync(CustomerDeleteGroupRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// 
@@ -1836,7 +1836,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerDeleteGroupResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<CustomerDeleteGroupResponse>> CustomerDeleteGroupWithHttpInfoAsync(CustomerDeleteGroupRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<CustomerDeleteGroupResponse>> CustomerDeleteGroupWithHttpInfoAsync(CustomerDeleteGroupRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// 
         /// </summary>
@@ -1848,7 +1848,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerDeleteGroupResponse</returns>
-        System.Threading.Tasks.Task<CustomerDeleteGroupResponse> CustomerDeleteGroup2Async(CustomerDeleteGroupRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<CustomerDeleteGroupResponse> CustomerDeleteGroup2Async(CustomerDeleteGroupRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// 
@@ -1861,7 +1861,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerDeleteGroupResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<CustomerDeleteGroupResponse>> CustomerDeleteGroup2WithHttpInfoAsync(CustomerDeleteGroupRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<CustomerDeleteGroupResponse>> CustomerDeleteGroup2WithHttpInfoAsync(CustomerDeleteGroupRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// 
         /// </summary>
@@ -1873,7 +1873,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerFindManyResponse</returns>
-        System.Threading.Tasks.Task<CustomerFindManyResponse> CustomerFindAsync(CustomerFindManyRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<CustomerFindManyResponse> CustomerFindAsync(CustomerFindManyRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// 
@@ -1886,7 +1886,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerFindManyResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<CustomerFindManyResponse>> CustomerFindWithHttpInfoAsync(CustomerFindManyRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<CustomerFindManyResponse>> CustomerFindWithHttpInfoAsync(CustomerFindManyRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// 
         /// </summary>
@@ -1898,7 +1898,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerFindManyResponse</returns>
-        System.Threading.Tasks.Task<CustomerFindManyResponse> CustomerFind2Async(CustomerFindManyRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<CustomerFindManyResponse> CustomerFind2Async(CustomerFindManyRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// 
@@ -1911,7 +1911,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerFindManyResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<CustomerFindManyResponse>> CustomerFind2WithHttpInfoAsync(CustomerFindManyRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<CustomerFindManyResponse>> CustomerFind2WithHttpInfoAsync(CustomerFindManyRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// 
         /// </summary>
@@ -1923,7 +1923,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerCustomerResponse</returns>
-        System.Threading.Tasks.Task<CustomerCustomerResponse> CustomerFindByEmailAsync(CustomerFindByEmailRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<CustomerCustomerResponse> CustomerFindByEmailAsync(CustomerFindByEmailRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// 
@@ -1936,7 +1936,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerCustomerResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<CustomerCustomerResponse>> CustomerFindByEmailWithHttpInfoAsync(CustomerFindByEmailRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<CustomerCustomerResponse>> CustomerFindByEmailWithHttpInfoAsync(CustomerFindByEmailRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// 
         /// </summary>
@@ -1948,7 +1948,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerCustomerResponse</returns>
-        System.Threading.Tasks.Task<CustomerCustomerResponse> CustomerFindByEmail2Async(CustomerFindByEmailRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<CustomerCustomerResponse> CustomerFindByEmail2Async(CustomerFindByEmailRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// 
@@ -1961,7 +1961,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerCustomerResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<CustomerCustomerResponse>> CustomerFindByEmail2WithHttpInfoAsync(CustomerFindByEmailRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<CustomerCustomerResponse>> CustomerFindByEmail2WithHttpInfoAsync(CustomerFindByEmailRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// 
         /// </summary>
@@ -1973,7 +1973,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerCustomerResponse</returns>
-        System.Threading.Tasks.Task<CustomerCustomerResponse> CustomerFindByIdAsync(CustomerFindByIdRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<CustomerCustomerResponse> CustomerFindByIdAsync(CustomerFindByIdRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// 
@@ -1986,7 +1986,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerCustomerResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<CustomerCustomerResponse>> CustomerFindByIdWithHttpInfoAsync(CustomerFindByIdRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<CustomerCustomerResponse>> CustomerFindByIdWithHttpInfoAsync(CustomerFindByIdRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// 
         /// </summary>
@@ -1998,7 +1998,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerCustomerResponse</returns>
-        System.Threading.Tasks.Task<CustomerCustomerResponse> CustomerFindById2Async(CustomerFindByIdRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<CustomerCustomerResponse> CustomerFindById2Async(CustomerFindByIdRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// 
@@ -2011,7 +2011,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerCustomerResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<CustomerCustomerResponse>> CustomerFindById2WithHttpInfoAsync(CustomerFindByIdRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<CustomerCustomerResponse>> CustomerFindById2WithHttpInfoAsync(CustomerFindByIdRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// 
         /// </summary>
@@ -2023,7 +2023,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerSubscriberResponse</returns>
-        System.Threading.Tasks.Task<CustomerSubscriberResponse> CustomerFindSubscriberByEmailAsync(CustomerFindSubscriberByEmailRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<CustomerSubscriberResponse> CustomerFindSubscriberByEmailAsync(CustomerFindSubscriberByEmailRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// 
@@ -2036,7 +2036,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerSubscriberResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<CustomerSubscriberResponse>> CustomerFindSubscriberByEmailWithHttpInfoAsync(CustomerFindSubscriberByEmailRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<CustomerSubscriberResponse>> CustomerFindSubscriberByEmailWithHttpInfoAsync(CustomerFindSubscriberByEmailRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// 
         /// </summary>
@@ -2048,7 +2048,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerSubscriberResponse</returns>
-        System.Threading.Tasks.Task<CustomerSubscriberResponse> CustomerFindSubscriberByEmail2Async(CustomerFindSubscriberByEmailRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<CustomerSubscriberResponse> CustomerFindSubscriberByEmail2Async(CustomerFindSubscriberByEmailRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// 
@@ -2061,7 +2061,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerSubscriberResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<CustomerSubscriberResponse>> CustomerFindSubscriberByEmail2WithHttpInfoAsync(CustomerFindSubscriberByEmailRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<CustomerSubscriberResponse>> CustomerFindSubscriberByEmail2WithHttpInfoAsync(CustomerFindSubscriberByEmailRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// 
         /// </summary>
@@ -2073,7 +2073,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerSubscriberResponse</returns>
-        System.Threading.Tasks.Task<CustomerSubscriberResponse> CustomerFindSubscriberByIdAsync(CustomerFindSubscriberByIdRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<CustomerSubscriberResponse> CustomerFindSubscriberByIdAsync(CustomerFindSubscriberByIdRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// 
@@ -2086,7 +2086,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerSubscriberResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<CustomerSubscriberResponse>> CustomerFindSubscriberByIdWithHttpInfoAsync(CustomerFindSubscriberByIdRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<CustomerSubscriberResponse>> CustomerFindSubscriberByIdWithHttpInfoAsync(CustomerFindSubscriberByIdRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// 
         /// </summary>
@@ -2098,7 +2098,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerSubscriberResponse</returns>
-        System.Threading.Tasks.Task<CustomerSubscriberResponse> CustomerFindSubscriberById2Async(CustomerFindSubscriberByIdRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<CustomerSubscriberResponse> CustomerFindSubscriberById2Async(CustomerFindSubscriberByIdRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// 
@@ -2111,7 +2111,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerSubscriberResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<CustomerSubscriberResponse>> CustomerFindSubscriberById2WithHttpInfoAsync(CustomerFindSubscriberByIdRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<CustomerSubscriberResponse>> CustomerFindSubscriberById2WithHttpInfoAsync(CustomerFindSubscriberByIdRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// 
         /// </summary>
@@ -2123,7 +2123,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerGroupResponse</returns>
-        System.Threading.Tasks.Task<CustomerGroupResponse> CustomerGetGroupByCodeAsync(CustomerGetGroupByCodeRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<CustomerGroupResponse> CustomerGetGroupByCodeAsync(CustomerGetGroupByCodeRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// 
@@ -2136,7 +2136,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerGroupResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<CustomerGroupResponse>> CustomerGetGroupByCodeWithHttpInfoAsync(CustomerGetGroupByCodeRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<CustomerGroupResponse>> CustomerGetGroupByCodeWithHttpInfoAsync(CustomerGetGroupByCodeRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// 
         /// </summary>
@@ -2148,7 +2148,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerGroupResponse</returns>
-        System.Threading.Tasks.Task<CustomerGroupResponse> CustomerGetGroupByCode2Async(CustomerGetGroupByCodeRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<CustomerGroupResponse> CustomerGetGroupByCode2Async(CustomerGetGroupByCodeRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// 
@@ -2161,7 +2161,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerGroupResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<CustomerGroupResponse>> CustomerGetGroupByCode2WithHttpInfoAsync(CustomerGetGroupByCodeRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<CustomerGroupResponse>> CustomerGetGroupByCode2WithHttpInfoAsync(CustomerGetGroupByCodeRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// 
         /// </summary>
@@ -2173,7 +2173,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerGroupResponse</returns>
-        System.Threading.Tasks.Task<CustomerGroupResponse> CustomerGetGroupByIdAsync(CustomerGetGroupByIdRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<CustomerGroupResponse> CustomerGetGroupByIdAsync(CustomerGetGroupByIdRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// 
@@ -2186,7 +2186,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerGroupResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<CustomerGroupResponse>> CustomerGetGroupByIdWithHttpInfoAsync(CustomerGetGroupByIdRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<CustomerGroupResponse>> CustomerGetGroupByIdWithHttpInfoAsync(CustomerGetGroupByIdRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// 
         /// </summary>
@@ -2198,7 +2198,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerGroupResponse</returns>
-        System.Threading.Tasks.Task<CustomerGroupResponse> CustomerGetGroupById2Async(CustomerGetGroupByIdRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<CustomerGroupResponse> CustomerGetGroupById2Async(CustomerGetGroupByIdRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// 
@@ -2211,7 +2211,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerGroupResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<CustomerGroupResponse>> CustomerGetGroupById2WithHttpInfoAsync(CustomerGetGroupByIdRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<CustomerGroupResponse>> CustomerGetGroupById2WithHttpInfoAsync(CustomerGetGroupByIdRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// 
         /// </summary>
@@ -2223,7 +2223,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of Object</returns>
-        System.Threading.Tasks.Task<Object> CustomerGrantPermissionsAsync(CustomerGrantPermissionsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<Object> CustomerGrantPermissionsAsync(CustomerGrantPermissionsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// 
@@ -2236,7 +2236,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (Object)</returns>
-        System.Threading.Tasks.Task<ApiResponse<Object>> CustomerGrantPermissionsWithHttpInfoAsync(CustomerGrantPermissionsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<Object>> CustomerGrantPermissionsWithHttpInfoAsync(CustomerGrantPermissionsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// 
         /// </summary>
@@ -2248,7 +2248,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of Object</returns>
-        System.Threading.Tasks.Task<Object> CustomerGrantPermissions2Async(CustomerGrantPermissionsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<Object> CustomerGrantPermissions2Async(CustomerGrantPermissionsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// 
@@ -2261,7 +2261,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (Object)</returns>
-        System.Threading.Tasks.Task<ApiResponse<Object>> CustomerGrantPermissions2WithHttpInfoAsync(CustomerGrantPermissionsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<Object>> CustomerGrantPermissions2WithHttpInfoAsync(CustomerGrantPermissionsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// ListConsents list all consents of a customer
         /// </summary>
@@ -2273,7 +2273,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerListConsentsResponse</returns>
-        System.Threading.Tasks.Task<CustomerListConsentsResponse> CustomerListConsentsAsync(CustomerListConsentsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<CustomerListConsentsResponse> CustomerListConsentsAsync(CustomerListConsentsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// ListConsents list all consents of a customer
@@ -2286,7 +2286,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerListConsentsResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<CustomerListConsentsResponse>> CustomerListConsentsWithHttpInfoAsync(CustomerListConsentsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<CustomerListConsentsResponse>> CustomerListConsentsWithHttpInfoAsync(CustomerListConsentsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// 
         /// </summary>
@@ -2298,7 +2298,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerListCustomersResponse</returns>
-        System.Threading.Tasks.Task<CustomerListCustomersResponse> CustomerListCustomersAsync(CustomerListCustomersRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<CustomerListCustomersResponse> CustomerListCustomersAsync(CustomerListCustomersRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// 
@@ -2311,7 +2311,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerListCustomersResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<CustomerListCustomersResponse>> CustomerListCustomersWithHttpInfoAsync(CustomerListCustomersRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<CustomerListCustomersResponse>> CustomerListCustomersWithHttpInfoAsync(CustomerListCustomersRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// 
         /// </summary>
@@ -2323,7 +2323,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerListCustomersResponse</returns>
-        System.Threading.Tasks.Task<CustomerListCustomersResponse> CustomerListCustomers2Async(CustomerListCustomersRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<CustomerListCustomersResponse> CustomerListCustomers2Async(CustomerListCustomersRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// 
@@ -2336,7 +2336,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerListCustomersResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<CustomerListCustomersResponse>> CustomerListCustomers2WithHttpInfoAsync(CustomerListCustomersRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<CustomerListCustomersResponse>> CustomerListCustomers2WithHttpInfoAsync(CustomerListCustomersRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// 
         /// </summary>
@@ -2348,7 +2348,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerListGroupsResponse</returns>
-        System.Threading.Tasks.Task<CustomerListGroupsResponse> CustomerListGroupsAsync(CustomerListGroupsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<CustomerListGroupsResponse> CustomerListGroupsAsync(CustomerListGroupsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// 
@@ -2361,7 +2361,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerListGroupsResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<CustomerListGroupsResponse>> CustomerListGroupsWithHttpInfoAsync(CustomerListGroupsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<CustomerListGroupsResponse>> CustomerListGroupsWithHttpInfoAsync(CustomerListGroupsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// 
         /// </summary>
@@ -2373,7 +2373,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerListGroupsResponse</returns>
-        System.Threading.Tasks.Task<CustomerListGroupsResponse> CustomerListGroups2Async(CustomerListGroupsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<CustomerListGroupsResponse> CustomerListGroups2Async(CustomerListGroupsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// 
@@ -2386,7 +2386,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerListGroupsResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<CustomerListGroupsResponse>> CustomerListGroups2WithHttpInfoAsync(CustomerListGroupsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<CustomerListGroupsResponse>> CustomerListGroups2WithHttpInfoAsync(CustomerListGroupsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// 
         /// </summary>
@@ -2398,7 +2398,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerGroupResponse</returns>
-        System.Threading.Tasks.Task<CustomerGroupResponse> CustomerRemoveCustomerFromGroupAsync(CustomerRemoveCustomerFromGroupRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<CustomerGroupResponse> CustomerRemoveCustomerFromGroupAsync(CustomerRemoveCustomerFromGroupRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// 
@@ -2411,7 +2411,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerGroupResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<CustomerGroupResponse>> CustomerRemoveCustomerFromGroupWithHttpInfoAsync(CustomerRemoveCustomerFromGroupRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<CustomerGroupResponse>> CustomerRemoveCustomerFromGroupWithHttpInfoAsync(CustomerRemoveCustomerFromGroupRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// 
         /// </summary>
@@ -2423,7 +2423,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerGroupResponse</returns>
-        System.Threading.Tasks.Task<CustomerGroupResponse> CustomerRemoveCustomerFromGroup2Async(CustomerRemoveCustomerFromGroupRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<CustomerGroupResponse> CustomerRemoveCustomerFromGroup2Async(CustomerRemoveCustomerFromGroupRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// 
@@ -2436,7 +2436,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerGroupResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<CustomerGroupResponse>> CustomerRemoveCustomerFromGroup2WithHttpInfoAsync(CustomerRemoveCustomerFromGroupRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<CustomerGroupResponse>> CustomerRemoveCustomerFromGroup2WithHttpInfoAsync(CustomerRemoveCustomerFromGroupRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// 
         /// </summary>
@@ -2448,7 +2448,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerCustomerResponse</returns>
-        System.Threading.Tasks.Task<CustomerCustomerResponse> CustomerRemoveDefaultAddressAsync(CustomerRemoveDefaultAddressRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<CustomerCustomerResponse> CustomerRemoveDefaultAddressAsync(CustomerRemoveDefaultAddressRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// 
@@ -2461,7 +2461,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerCustomerResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<CustomerCustomerResponse>> CustomerRemoveDefaultAddressWithHttpInfoAsync(CustomerRemoveDefaultAddressRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<CustomerCustomerResponse>> CustomerRemoveDefaultAddressWithHttpInfoAsync(CustomerRemoveDefaultAddressRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// 
         /// </summary>
@@ -2473,7 +2473,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerCustomerResponse</returns>
-        System.Threading.Tasks.Task<CustomerCustomerResponse> CustomerRemoveDefaultAddress2Async(CustomerRemoveDefaultAddressRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<CustomerCustomerResponse> CustomerRemoveDefaultAddress2Async(CustomerRemoveDefaultAddressRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// 
@@ -2486,7 +2486,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerCustomerResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<CustomerCustomerResponse>> CustomerRemoveDefaultAddress2WithHttpInfoAsync(CustomerRemoveDefaultAddressRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<CustomerCustomerResponse>> CustomerRemoveDefaultAddress2WithHttpInfoAsync(CustomerRemoveDefaultAddressRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// 
         /// </summary>
@@ -2498,7 +2498,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of Object</returns>
-        System.Threading.Tasks.Task<Object> CustomerRevokePermissionsAsync(CustomerRevokePermissionsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<Object> CustomerRevokePermissionsAsync(CustomerRevokePermissionsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// 
@@ -2511,7 +2511,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (Object)</returns>
-        System.Threading.Tasks.Task<ApiResponse<Object>> CustomerRevokePermissionsWithHttpInfoAsync(CustomerRevokePermissionsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<Object>> CustomerRevokePermissionsWithHttpInfoAsync(CustomerRevokePermissionsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// 
         /// </summary>
@@ -2523,7 +2523,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of Object</returns>
-        System.Threading.Tasks.Task<Object> CustomerRevokePermissions2Async(CustomerRevokePermissionsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<Object> CustomerRevokePermissions2Async(CustomerRevokePermissionsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// 
@@ -2536,7 +2536,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (Object)</returns>
-        System.Threading.Tasks.Task<ApiResponse<Object>> CustomerRevokePermissions2WithHttpInfoAsync(CustomerRevokePermissionsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<Object>> CustomerRevokePermissions2WithHttpInfoAsync(CustomerRevokePermissionsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// 
         /// </summary>
@@ -2548,7 +2548,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerSearchResponse</returns>
-        System.Threading.Tasks.Task<CustomerSearchResponse> CustomerSearchAsync(CustomerSearchRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<CustomerSearchResponse> CustomerSearchAsync(CustomerSearchRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// 
@@ -2561,7 +2561,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerSearchResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<CustomerSearchResponse>> CustomerSearchWithHttpInfoAsync(CustomerSearchRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<CustomerSearchResponse>> CustomerSearchWithHttpInfoAsync(CustomerSearchRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// 
         /// </summary>
@@ -2573,7 +2573,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerSearchResponse</returns>
-        System.Threading.Tasks.Task<CustomerSearchResponse> CustomerSearch2Async(CustomerSearchRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<CustomerSearchResponse> CustomerSearch2Async(CustomerSearchRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// 
@@ -2586,7 +2586,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerSearchResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<CustomerSearchResponse>> CustomerSearch2WithHttpInfoAsync(CustomerSearchRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<CustomerSearchResponse>> CustomerSearch2WithHttpInfoAsync(CustomerSearchRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// 
         /// </summary>
@@ -2598,7 +2598,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerCustomerResponse</returns>
-        System.Threading.Tasks.Task<CustomerCustomerResponse> CustomerSetDefaultAddressAsync(CustomerSetDefaultAddressRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<CustomerCustomerResponse> CustomerSetDefaultAddressAsync(CustomerSetDefaultAddressRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// 
@@ -2611,7 +2611,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerCustomerResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<CustomerCustomerResponse>> CustomerSetDefaultAddressWithHttpInfoAsync(CustomerSetDefaultAddressRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<CustomerCustomerResponse>> CustomerSetDefaultAddressWithHttpInfoAsync(CustomerSetDefaultAddressRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// 
         /// </summary>
@@ -2623,7 +2623,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerCustomerResponse</returns>
-        System.Threading.Tasks.Task<CustomerCustomerResponse> CustomerSetDefaultAddress2Async(CustomerSetDefaultAddressRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<CustomerCustomerResponse> CustomerSetDefaultAddress2Async(CustomerSetDefaultAddressRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// 
@@ -2636,7 +2636,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerCustomerResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<CustomerCustomerResponse>> CustomerSetDefaultAddress2WithHttpInfoAsync(CustomerSetDefaultAddressRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<CustomerCustomerResponse>> CustomerSetDefaultAddress2WithHttpInfoAsync(CustomerSetDefaultAddressRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// 
         /// </summary>
@@ -2648,7 +2648,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of Object</returns>
-        System.Threading.Tasks.Task<Object> CustomerSetPermissionsAsync(CustomerSetPermissionsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<Object> CustomerSetPermissionsAsync(CustomerSetPermissionsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// 
@@ -2661,7 +2661,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (Object)</returns>
-        System.Threading.Tasks.Task<ApiResponse<Object>> CustomerSetPermissionsWithHttpInfoAsync(CustomerSetPermissionsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<Object>> CustomerSetPermissionsWithHttpInfoAsync(CustomerSetPermissionsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// 
         /// </summary>
@@ -2673,7 +2673,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of Object</returns>
-        System.Threading.Tasks.Task<Object> CustomerSetPermissions2Async(CustomerSetPermissionsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<Object> CustomerSetPermissions2Async(CustomerSetPermissionsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// 
@@ -2686,7 +2686,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (Object)</returns>
-        System.Threading.Tasks.Task<ApiResponse<Object>> CustomerSetPermissions2WithHttpInfoAsync(CustomerSetPermissionsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<Object>> CustomerSetPermissions2WithHttpInfoAsync(CustomerSetPermissionsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// 
         /// </summary>
@@ -2698,7 +2698,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of Object</returns>
-        System.Threading.Tasks.Task<Object> CustomerUnassignAgentAsync(CustomerUnassignAgentRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<Object> CustomerUnassignAgentAsync(CustomerUnassignAgentRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// 
@@ -2711,7 +2711,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (Object)</returns>
-        System.Threading.Tasks.Task<ApiResponse<Object>> CustomerUnassignAgentWithHttpInfoAsync(CustomerUnassignAgentRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<Object>> CustomerUnassignAgentWithHttpInfoAsync(CustomerUnassignAgentRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// 
         /// </summary>
@@ -2723,7 +2723,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerUnsubscribeResponse</returns>
-        System.Threading.Tasks.Task<CustomerUnsubscribeResponse> CustomerUnsubscribeAsync(CustomerUnsubscribeRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<CustomerUnsubscribeResponse> CustomerUnsubscribeAsync(CustomerUnsubscribeRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// 
@@ -2736,7 +2736,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerUnsubscribeResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<CustomerUnsubscribeResponse>> CustomerUnsubscribeWithHttpInfoAsync(CustomerUnsubscribeRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<CustomerUnsubscribeResponse>> CustomerUnsubscribeWithHttpInfoAsync(CustomerUnsubscribeRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// 
         /// </summary>
@@ -2748,7 +2748,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerUnsubscribeResponse</returns>
-        System.Threading.Tasks.Task<CustomerUnsubscribeResponse> CustomerUnsubscribe2Async(CustomerUnsubscribeRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<CustomerUnsubscribeResponse> CustomerUnsubscribe2Async(CustomerUnsubscribeRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// 
@@ -2761,7 +2761,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerUnsubscribeResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<CustomerUnsubscribeResponse>> CustomerUnsubscribe2WithHttpInfoAsync(CustomerUnsubscribeRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<CustomerUnsubscribeResponse>> CustomerUnsubscribe2WithHttpInfoAsync(CustomerUnsubscribeRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// 
         /// </summary>
@@ -2773,7 +2773,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerCustomerResponse</returns>
-        System.Threading.Tasks.Task<CustomerCustomerResponse> CustomerUpdateAsync(CustomerUpdateRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<CustomerCustomerResponse> CustomerUpdateAsync(CustomerUpdateRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// 
@@ -2786,7 +2786,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerCustomerResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<CustomerCustomerResponse>> CustomerUpdateWithHttpInfoAsync(CustomerUpdateRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<CustomerCustomerResponse>> CustomerUpdateWithHttpInfoAsync(CustomerUpdateRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// 
         /// </summary>
@@ -2798,7 +2798,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerCustomerResponse</returns>
-        System.Threading.Tasks.Task<CustomerCustomerResponse> CustomerUpdate2Async(CustomerUpdateRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<CustomerCustomerResponse> CustomerUpdate2Async(CustomerUpdateRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// 
@@ -2811,7 +2811,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerCustomerResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<CustomerCustomerResponse>> CustomerUpdate2WithHttpInfoAsync(CustomerUpdateRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<CustomerCustomerResponse>> CustomerUpdate2WithHttpInfoAsync(CustomerUpdateRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// 
         /// </summary>
@@ -2823,7 +2823,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerAddressUpdateResponse</returns>
-        System.Threading.Tasks.Task<CustomerAddressUpdateResponse> CustomerUpdateAddressAsync(CustomerAddressUpdateRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<CustomerAddressUpdateResponse> CustomerUpdateAddressAsync(CustomerAddressUpdateRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// 
@@ -2836,7 +2836,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerAddressUpdateResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<CustomerAddressUpdateResponse>> CustomerUpdateAddressWithHttpInfoAsync(CustomerAddressUpdateRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<CustomerAddressUpdateResponse>> CustomerUpdateAddressWithHttpInfoAsync(CustomerAddressUpdateRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// 
         /// </summary>
@@ -2848,7 +2848,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerAddressUpdateResponse</returns>
-        System.Threading.Tasks.Task<CustomerAddressUpdateResponse> CustomerUpdateAddress2Async(CustomerAddressUpdateRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<CustomerAddressUpdateResponse> CustomerUpdateAddress2Async(CustomerAddressUpdateRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// 
@@ -2861,7 +2861,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerAddressUpdateResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<CustomerAddressUpdateResponse>> CustomerUpdateAddress2WithHttpInfoAsync(CustomerAddressUpdateRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<CustomerAddressUpdateResponse>> CustomerUpdateAddress2WithHttpInfoAsync(CustomerAddressUpdateRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// 
         /// </summary>
@@ -2873,7 +2873,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerGroupResponse</returns>
-        System.Threading.Tasks.Task<CustomerGroupResponse> CustomerUpdateGroupAsync(CustomerUpdateGroupRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<CustomerGroupResponse> CustomerUpdateGroupAsync(CustomerUpdateGroupRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// 
@@ -2886,7 +2886,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerGroupResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<CustomerGroupResponse>> CustomerUpdateGroupWithHttpInfoAsync(CustomerUpdateGroupRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<CustomerGroupResponse>> CustomerUpdateGroupWithHttpInfoAsync(CustomerUpdateGroupRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// 
         /// </summary>
@@ -2898,7 +2898,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerGroupResponse</returns>
-        System.Threading.Tasks.Task<CustomerGroupResponse> CustomerUpdateGroup2Async(CustomerUpdateGroupRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<CustomerGroupResponse> CustomerUpdateGroup2Async(CustomerUpdateGroupRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// 
@@ -2911,7 +2911,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerGroupResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<CustomerGroupResponse>> CustomerUpdateGroup2WithHttpInfoAsync(CustomerUpdateGroupRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<CustomerGroupResponse>> CustomerUpdateGroup2WithHttpInfoAsync(CustomerUpdateGroupRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// 
         /// </summary>
@@ -2923,7 +2923,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerSubscriberResponse</returns>
-        System.Threading.Tasks.Task<CustomerSubscriberResponse> CustomerUpdateSubscriberAsync(CustomerUpdateSubscriberRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<CustomerSubscriberResponse> CustomerUpdateSubscriberAsync(CustomerUpdateSubscriberRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// 
@@ -2936,7 +2936,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerSubscriberResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<CustomerSubscriberResponse>> CustomerUpdateSubscriberWithHttpInfoAsync(CustomerUpdateSubscriberRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<CustomerSubscriberResponse>> CustomerUpdateSubscriberWithHttpInfoAsync(CustomerUpdateSubscriberRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// 
         /// </summary>
@@ -2948,7 +2948,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerSubscriberResponse</returns>
-        System.Threading.Tasks.Task<CustomerSubscriberResponse> CustomerUpdateSubscriber2Async(CustomerUpdateSubscriberRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<CustomerSubscriberResponse> CustomerUpdateSubscriber2Async(CustomerUpdateSubscriberRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// 
@@ -2961,7 +2961,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerSubscriberResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<CustomerSubscriberResponse>> CustomerUpdateSubscriber2WithHttpInfoAsync(CustomerUpdateSubscriberRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<CustomerSubscriberResponse>> CustomerUpdateSubscriber2WithHttpInfoAsync(CustomerUpdateSubscriberRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         #endregion Asynchronous Operations
     }
 
@@ -3138,6 +3138,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerAcquireSubscriber";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<CustomerSubscriberResponse>("/customer/acquire_subscriber", localVarRequestOptions, this.Configuration);
@@ -3161,7 +3166,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerSubscriberResponse</returns>
-        public async System.Threading.Tasks.Task<CustomerSubscriberResponse> CustomerAcquireSubscriberAsync(CustomerCreateSubscriberRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<CustomerSubscriberResponse> CustomerAcquireSubscriberAsync(CustomerCreateSubscriberRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             customer.Client.ApiResponse<CustomerSubscriberResponse> localVarResponse = await CustomerAcquireSubscriberWithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -3175,7 +3180,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerSubscriberResponse)</returns>
-        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerSubscriberResponse>> CustomerAcquireSubscriberWithHttpInfoAsync(CustomerCreateSubscriberRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerSubscriberResponse>> CustomerAcquireSubscriberWithHttpInfoAsync(CustomerCreateSubscriberRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -3212,6 +3217,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerAcquireSubscriber";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<CustomerSubscriberResponse>("/customer/acquire_subscriber", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
@@ -3284,6 +3294,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerAcquireSubscriber2";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<CustomerSubscriberResponse>("/customer.Customer/AcquireSubscriber", localVarRequestOptions, this.Configuration);
@@ -3307,7 +3322,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerSubscriberResponse</returns>
-        public async System.Threading.Tasks.Task<CustomerSubscriberResponse> CustomerAcquireSubscriber2Async(CustomerCreateSubscriberRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<CustomerSubscriberResponse> CustomerAcquireSubscriber2Async(CustomerCreateSubscriberRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             customer.Client.ApiResponse<CustomerSubscriberResponse> localVarResponse = await CustomerAcquireSubscriber2WithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -3321,7 +3336,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerSubscriberResponse)</returns>
-        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerSubscriberResponse>> CustomerAcquireSubscriber2WithHttpInfoAsync(CustomerCreateSubscriberRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerSubscriberResponse>> CustomerAcquireSubscriber2WithHttpInfoAsync(CustomerCreateSubscriberRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -3358,6 +3373,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerAcquireSubscriber2";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<CustomerSubscriberResponse>("/customer.Customer/AcquireSubscriber", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
@@ -3430,6 +3450,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerAcquireUnsubscriber";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<CustomerUnsubscribeResponse>("/customer/acquire_unsubscriber", localVarRequestOptions, this.Configuration);
@@ -3453,7 +3478,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerUnsubscribeResponse</returns>
-        public async System.Threading.Tasks.Task<CustomerUnsubscribeResponse> CustomerAcquireUnsubscriberAsync(CustomerUnsubscribeRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<CustomerUnsubscribeResponse> CustomerAcquireUnsubscriberAsync(CustomerUnsubscribeRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             customer.Client.ApiResponse<CustomerUnsubscribeResponse> localVarResponse = await CustomerAcquireUnsubscriberWithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -3467,7 +3492,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerUnsubscribeResponse)</returns>
-        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerUnsubscribeResponse>> CustomerAcquireUnsubscriberWithHttpInfoAsync(CustomerUnsubscribeRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerUnsubscribeResponse>> CustomerAcquireUnsubscriberWithHttpInfoAsync(CustomerUnsubscribeRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -3504,6 +3529,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerAcquireUnsubscriber";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<CustomerUnsubscribeResponse>("/customer/acquire_unsubscriber", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
@@ -3576,6 +3606,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerAcquireUnsubscriber2";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<CustomerUnsubscribeResponse>("/customer.Customer/AcquireUnsubscriber", localVarRequestOptions, this.Configuration);
@@ -3599,7 +3634,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerUnsubscribeResponse</returns>
-        public async System.Threading.Tasks.Task<CustomerUnsubscribeResponse> CustomerAcquireUnsubscriber2Async(CustomerUnsubscribeRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<CustomerUnsubscribeResponse> CustomerAcquireUnsubscriber2Async(CustomerUnsubscribeRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             customer.Client.ApiResponse<CustomerUnsubscribeResponse> localVarResponse = await CustomerAcquireUnsubscriber2WithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -3613,7 +3648,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerUnsubscribeResponse)</returns>
-        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerUnsubscribeResponse>> CustomerAcquireUnsubscriber2WithHttpInfoAsync(CustomerUnsubscribeRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerUnsubscribeResponse>> CustomerAcquireUnsubscriber2WithHttpInfoAsync(CustomerUnsubscribeRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -3650,6 +3685,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerAcquireUnsubscriber2";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<CustomerUnsubscribeResponse>("/customer.Customer/AcquireUnsubscriber", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
@@ -3722,6 +3762,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerAddCustomerToGroup";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<CustomerGroupResponse>("/customer/add_customer_to_segment", localVarRequestOptions, this.Configuration);
@@ -3745,7 +3790,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerGroupResponse</returns>
-        public async System.Threading.Tasks.Task<CustomerGroupResponse> CustomerAddCustomerToGroupAsync(CustomerAddCustomerToGroupRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<CustomerGroupResponse> CustomerAddCustomerToGroupAsync(CustomerAddCustomerToGroupRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             customer.Client.ApiResponse<CustomerGroupResponse> localVarResponse = await CustomerAddCustomerToGroupWithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -3759,7 +3804,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerGroupResponse)</returns>
-        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerGroupResponse>> CustomerAddCustomerToGroupWithHttpInfoAsync(CustomerAddCustomerToGroupRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerGroupResponse>> CustomerAddCustomerToGroupWithHttpInfoAsync(CustomerAddCustomerToGroupRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -3796,6 +3841,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerAddCustomerToGroup";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<CustomerGroupResponse>("/customer/add_customer_to_segment", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
@@ -3868,6 +3918,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerAddCustomerToGroup2";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<CustomerGroupResponse>("/customer.Customer/AddCustomerToGroup", localVarRequestOptions, this.Configuration);
@@ -3891,7 +3946,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerGroupResponse</returns>
-        public async System.Threading.Tasks.Task<CustomerGroupResponse> CustomerAddCustomerToGroup2Async(CustomerAddCustomerToGroupRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<CustomerGroupResponse> CustomerAddCustomerToGroup2Async(CustomerAddCustomerToGroupRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             customer.Client.ApiResponse<CustomerGroupResponse> localVarResponse = await CustomerAddCustomerToGroup2WithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -3905,7 +3960,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerGroupResponse)</returns>
-        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerGroupResponse>> CustomerAddCustomerToGroup2WithHttpInfoAsync(CustomerAddCustomerToGroupRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerGroupResponse>> CustomerAddCustomerToGroup2WithHttpInfoAsync(CustomerAddCustomerToGroupRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -3942,6 +3997,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerAddCustomerToGroup2";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<CustomerGroupResponse>("/customer.Customer/AddCustomerToGroup", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
@@ -4014,6 +4074,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerAssignAgent";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<Object>("/customer.Customer/AssignAgent", localVarRequestOptions, this.Configuration);
@@ -4037,7 +4102,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of Object</returns>
-        public async System.Threading.Tasks.Task<Object> CustomerAssignAgentAsync(CustomerAssignAgentRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<Object> CustomerAssignAgentAsync(CustomerAssignAgentRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             customer.Client.ApiResponse<Object> localVarResponse = await CustomerAssignAgentWithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -4051,7 +4116,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (Object)</returns>
-        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<Object>> CustomerAssignAgentWithHttpInfoAsync(CustomerAssignAgentRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<Object>> CustomerAssignAgentWithHttpInfoAsync(CustomerAssignAgentRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -4088,6 +4153,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerAssignAgent";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<Object>("/customer.Customer/AssignAgent", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
@@ -4160,6 +4230,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerBulkUpdate";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<CustomerBulkUpdateResponse>("/customer/bulk_update", localVarRequestOptions, this.Configuration);
@@ -4183,7 +4258,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerBulkUpdateResponse</returns>
-        public async System.Threading.Tasks.Task<CustomerBulkUpdateResponse> CustomerBulkUpdateAsync(CustomerBulkUpdateRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<CustomerBulkUpdateResponse> CustomerBulkUpdateAsync(CustomerBulkUpdateRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             customer.Client.ApiResponse<CustomerBulkUpdateResponse> localVarResponse = await CustomerBulkUpdateWithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -4197,7 +4272,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerBulkUpdateResponse)</returns>
-        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerBulkUpdateResponse>> CustomerBulkUpdateWithHttpInfoAsync(CustomerBulkUpdateRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerBulkUpdateResponse>> CustomerBulkUpdateWithHttpInfoAsync(CustomerBulkUpdateRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -4234,6 +4309,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerBulkUpdate";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<CustomerBulkUpdateResponse>("/customer/bulk_update", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
@@ -4306,6 +4386,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerBulkUpdate2";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<CustomerBulkUpdateResponse>("/customer.Customer/BulkUpdate", localVarRequestOptions, this.Configuration);
@@ -4329,7 +4414,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerBulkUpdateResponse</returns>
-        public async System.Threading.Tasks.Task<CustomerBulkUpdateResponse> CustomerBulkUpdate2Async(CustomerBulkUpdateRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<CustomerBulkUpdateResponse> CustomerBulkUpdate2Async(CustomerBulkUpdateRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             customer.Client.ApiResponse<CustomerBulkUpdateResponse> localVarResponse = await CustomerBulkUpdate2WithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -4343,7 +4428,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerBulkUpdateResponse)</returns>
-        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerBulkUpdateResponse>> CustomerBulkUpdate2WithHttpInfoAsync(CustomerBulkUpdateRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerBulkUpdateResponse>> CustomerBulkUpdate2WithHttpInfoAsync(CustomerBulkUpdateRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -4380,6 +4465,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerBulkUpdate2";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<CustomerBulkUpdateResponse>("/customer.Customer/BulkUpdate", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
@@ -4452,6 +4542,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerCreate";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<CustomerCustomerResponse>("/customer/create", localVarRequestOptions, this.Configuration);
@@ -4475,7 +4570,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerCustomerResponse</returns>
-        public async System.Threading.Tasks.Task<CustomerCustomerResponse> CustomerCreateAsync(CustomerCreateRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<CustomerCustomerResponse> CustomerCreateAsync(CustomerCreateRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             customer.Client.ApiResponse<CustomerCustomerResponse> localVarResponse = await CustomerCreateWithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -4489,7 +4584,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerCustomerResponse)</returns>
-        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerCustomerResponse>> CustomerCreateWithHttpInfoAsync(CustomerCreateRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerCustomerResponse>> CustomerCreateWithHttpInfoAsync(CustomerCreateRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -4526,6 +4621,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerCreate";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<CustomerCustomerResponse>("/customer/create", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
@@ -4598,6 +4698,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerCreate2";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<CustomerCustomerResponse>("/customer.Customer/Create", localVarRequestOptions, this.Configuration);
@@ -4621,7 +4726,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerCustomerResponse</returns>
-        public async System.Threading.Tasks.Task<CustomerCustomerResponse> CustomerCreate2Async(CustomerCreateRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<CustomerCustomerResponse> CustomerCreate2Async(CustomerCreateRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             customer.Client.ApiResponse<CustomerCustomerResponse> localVarResponse = await CustomerCreate2WithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -4635,7 +4740,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerCustomerResponse)</returns>
-        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerCustomerResponse>> CustomerCreate2WithHttpInfoAsync(CustomerCreateRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerCustomerResponse>> CustomerCreate2WithHttpInfoAsync(CustomerCreateRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -4672,6 +4777,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerCreate2";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<CustomerCustomerResponse>("/customer.Customer/Create", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
@@ -4744,6 +4854,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerCreateAddress";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<CustomerAddressCustomerResponse>("/customer/create_address", localVarRequestOptions, this.Configuration);
@@ -4767,7 +4882,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerAddressCustomerResponse</returns>
-        public async System.Threading.Tasks.Task<CustomerAddressCustomerResponse> CustomerCreateAddressAsync(CustomerAddressCreateRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<CustomerAddressCustomerResponse> CustomerCreateAddressAsync(CustomerAddressCreateRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             customer.Client.ApiResponse<CustomerAddressCustomerResponse> localVarResponse = await CustomerCreateAddressWithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -4781,7 +4896,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerAddressCustomerResponse)</returns>
-        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerAddressCustomerResponse>> CustomerCreateAddressWithHttpInfoAsync(CustomerAddressCreateRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerAddressCustomerResponse>> CustomerCreateAddressWithHttpInfoAsync(CustomerAddressCreateRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -4818,6 +4933,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerCreateAddress";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<CustomerAddressCustomerResponse>("/customer/create_address", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
@@ -4890,6 +5010,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerCreateAddress2";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<CustomerAddressCustomerResponse>("/customer.Customer/CreateAddress", localVarRequestOptions, this.Configuration);
@@ -4913,7 +5038,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerAddressCustomerResponse</returns>
-        public async System.Threading.Tasks.Task<CustomerAddressCustomerResponse> CustomerCreateAddress2Async(CustomerAddressCreateRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<CustomerAddressCustomerResponse> CustomerCreateAddress2Async(CustomerAddressCreateRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             customer.Client.ApiResponse<CustomerAddressCustomerResponse> localVarResponse = await CustomerCreateAddress2WithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -4927,7 +5052,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerAddressCustomerResponse)</returns>
-        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerAddressCustomerResponse>> CustomerCreateAddress2WithHttpInfoAsync(CustomerAddressCreateRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerAddressCustomerResponse>> CustomerCreateAddress2WithHttpInfoAsync(CustomerAddressCreateRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -4964,6 +5089,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerCreateAddress2";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<CustomerAddressCustomerResponse>("/customer.Customer/CreateAddress", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
@@ -5036,6 +5166,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerCreateGroup";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<CustomerGroupResponse>("/customer/create_segment", localVarRequestOptions, this.Configuration);
@@ -5059,7 +5194,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerGroupResponse</returns>
-        public async System.Threading.Tasks.Task<CustomerGroupResponse> CustomerCreateGroupAsync(CustomerCreateGroupRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<CustomerGroupResponse> CustomerCreateGroupAsync(CustomerCreateGroupRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             customer.Client.ApiResponse<CustomerGroupResponse> localVarResponse = await CustomerCreateGroupWithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -5073,7 +5208,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerGroupResponse)</returns>
-        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerGroupResponse>> CustomerCreateGroupWithHttpInfoAsync(CustomerCreateGroupRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerGroupResponse>> CustomerCreateGroupWithHttpInfoAsync(CustomerCreateGroupRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -5110,6 +5245,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerCreateGroup";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<CustomerGroupResponse>("/customer/create_segment", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
@@ -5182,6 +5322,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerCreateGroup2";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<CustomerGroupResponse>("/customer.Customer/CreateGroup", localVarRequestOptions, this.Configuration);
@@ -5205,7 +5350,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerGroupResponse</returns>
-        public async System.Threading.Tasks.Task<CustomerGroupResponse> CustomerCreateGroup2Async(CustomerCreateGroupRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<CustomerGroupResponse> CustomerCreateGroup2Async(CustomerCreateGroupRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             customer.Client.ApiResponse<CustomerGroupResponse> localVarResponse = await CustomerCreateGroup2WithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -5219,7 +5364,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerGroupResponse)</returns>
-        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerGroupResponse>> CustomerCreateGroup2WithHttpInfoAsync(CustomerCreateGroupRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerGroupResponse>> CustomerCreateGroup2WithHttpInfoAsync(CustomerCreateGroupRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -5256,6 +5401,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerCreateGroup2";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<CustomerGroupResponse>("/customer.Customer/CreateGroup", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
@@ -5328,6 +5478,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerCreateSubscriber";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<CustomerSubscriberResponse>("/customer/create_subscriber", localVarRequestOptions, this.Configuration);
@@ -5351,7 +5506,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerSubscriberResponse</returns>
-        public async System.Threading.Tasks.Task<CustomerSubscriberResponse> CustomerCreateSubscriberAsync(CustomerCreateSubscriberRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<CustomerSubscriberResponse> CustomerCreateSubscriberAsync(CustomerCreateSubscriberRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             customer.Client.ApiResponse<CustomerSubscriberResponse> localVarResponse = await CustomerCreateSubscriberWithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -5365,7 +5520,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerSubscriberResponse)</returns>
-        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerSubscriberResponse>> CustomerCreateSubscriberWithHttpInfoAsync(CustomerCreateSubscriberRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerSubscriberResponse>> CustomerCreateSubscriberWithHttpInfoAsync(CustomerCreateSubscriberRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -5402,6 +5557,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerCreateSubscriber";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<CustomerSubscriberResponse>("/customer/create_subscriber", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
@@ -5474,6 +5634,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerCreateSubscriber2";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<CustomerSubscriberResponse>("/customer.Customer/CreateSubscriber", localVarRequestOptions, this.Configuration);
@@ -5497,7 +5662,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerSubscriberResponse</returns>
-        public async System.Threading.Tasks.Task<CustomerSubscriberResponse> CustomerCreateSubscriber2Async(CustomerCreateSubscriberRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<CustomerSubscriberResponse> CustomerCreateSubscriber2Async(CustomerCreateSubscriberRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             customer.Client.ApiResponse<CustomerSubscriberResponse> localVarResponse = await CustomerCreateSubscriber2WithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -5511,7 +5676,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerSubscriberResponse)</returns>
-        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerSubscriberResponse>> CustomerCreateSubscriber2WithHttpInfoAsync(CustomerCreateSubscriberRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerSubscriberResponse>> CustomerCreateSubscriber2WithHttpInfoAsync(CustomerCreateSubscriberRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -5548,6 +5713,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerCreateSubscriber2";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<CustomerSubscriberResponse>("/customer.Customer/CreateSubscriber", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
@@ -5620,6 +5790,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerDeleteAddress";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<CustomerAddressDeleteResponse>("/customer/delete_address", localVarRequestOptions, this.Configuration);
@@ -5643,7 +5818,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerAddressDeleteResponse</returns>
-        public async System.Threading.Tasks.Task<CustomerAddressDeleteResponse> CustomerDeleteAddressAsync(CustomerAddressDeleteRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<CustomerAddressDeleteResponse> CustomerDeleteAddressAsync(CustomerAddressDeleteRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             customer.Client.ApiResponse<CustomerAddressDeleteResponse> localVarResponse = await CustomerDeleteAddressWithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -5657,7 +5832,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerAddressDeleteResponse)</returns>
-        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerAddressDeleteResponse>> CustomerDeleteAddressWithHttpInfoAsync(CustomerAddressDeleteRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerAddressDeleteResponse>> CustomerDeleteAddressWithHttpInfoAsync(CustomerAddressDeleteRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -5694,6 +5869,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerDeleteAddress";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<CustomerAddressDeleteResponse>("/customer/delete_address", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
@@ -5766,6 +5946,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerDeleteAddress2";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<CustomerAddressDeleteResponse>("/customer.Customer/DeleteAddress", localVarRequestOptions, this.Configuration);
@@ -5789,7 +5974,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerAddressDeleteResponse</returns>
-        public async System.Threading.Tasks.Task<CustomerAddressDeleteResponse> CustomerDeleteAddress2Async(CustomerAddressDeleteRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<CustomerAddressDeleteResponse> CustomerDeleteAddress2Async(CustomerAddressDeleteRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             customer.Client.ApiResponse<CustomerAddressDeleteResponse> localVarResponse = await CustomerDeleteAddress2WithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -5803,7 +5988,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerAddressDeleteResponse)</returns>
-        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerAddressDeleteResponse>> CustomerDeleteAddress2WithHttpInfoAsync(CustomerAddressDeleteRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerAddressDeleteResponse>> CustomerDeleteAddress2WithHttpInfoAsync(CustomerAddressDeleteRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -5840,6 +6025,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerDeleteAddress2";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<CustomerAddressDeleteResponse>("/customer.Customer/DeleteAddress", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
@@ -5912,6 +6102,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerDeleteGroup";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<CustomerDeleteGroupResponse>("/customer/delete_segment", localVarRequestOptions, this.Configuration);
@@ -5935,7 +6130,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerDeleteGroupResponse</returns>
-        public async System.Threading.Tasks.Task<CustomerDeleteGroupResponse> CustomerDeleteGroupAsync(CustomerDeleteGroupRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<CustomerDeleteGroupResponse> CustomerDeleteGroupAsync(CustomerDeleteGroupRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             customer.Client.ApiResponse<CustomerDeleteGroupResponse> localVarResponse = await CustomerDeleteGroupWithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -5949,7 +6144,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerDeleteGroupResponse)</returns>
-        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerDeleteGroupResponse>> CustomerDeleteGroupWithHttpInfoAsync(CustomerDeleteGroupRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerDeleteGroupResponse>> CustomerDeleteGroupWithHttpInfoAsync(CustomerDeleteGroupRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -5986,6 +6181,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerDeleteGroup";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<CustomerDeleteGroupResponse>("/customer/delete_segment", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
@@ -6058,6 +6258,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerDeleteGroup2";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<CustomerDeleteGroupResponse>("/customer.Customer/DeleteGroup", localVarRequestOptions, this.Configuration);
@@ -6081,7 +6286,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerDeleteGroupResponse</returns>
-        public async System.Threading.Tasks.Task<CustomerDeleteGroupResponse> CustomerDeleteGroup2Async(CustomerDeleteGroupRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<CustomerDeleteGroupResponse> CustomerDeleteGroup2Async(CustomerDeleteGroupRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             customer.Client.ApiResponse<CustomerDeleteGroupResponse> localVarResponse = await CustomerDeleteGroup2WithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -6095,7 +6300,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerDeleteGroupResponse)</returns>
-        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerDeleteGroupResponse>> CustomerDeleteGroup2WithHttpInfoAsync(CustomerDeleteGroupRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerDeleteGroupResponse>> CustomerDeleteGroup2WithHttpInfoAsync(CustomerDeleteGroupRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -6132,6 +6337,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerDeleteGroup2";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<CustomerDeleteGroupResponse>("/customer.Customer/DeleteGroup", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
@@ -6204,6 +6414,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerFind";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<CustomerFindManyResponse>("/customer/find", localVarRequestOptions, this.Configuration);
@@ -6227,7 +6442,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerFindManyResponse</returns>
-        public async System.Threading.Tasks.Task<CustomerFindManyResponse> CustomerFindAsync(CustomerFindManyRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<CustomerFindManyResponse> CustomerFindAsync(CustomerFindManyRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             customer.Client.ApiResponse<CustomerFindManyResponse> localVarResponse = await CustomerFindWithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -6241,7 +6456,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerFindManyResponse)</returns>
-        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerFindManyResponse>> CustomerFindWithHttpInfoAsync(CustomerFindManyRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerFindManyResponse>> CustomerFindWithHttpInfoAsync(CustomerFindManyRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -6278,6 +6493,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerFind";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<CustomerFindManyResponse>("/customer/find", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
@@ -6350,6 +6570,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerFind2";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<CustomerFindManyResponse>("/customer.Customer/Find", localVarRequestOptions, this.Configuration);
@@ -6373,7 +6598,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerFindManyResponse</returns>
-        public async System.Threading.Tasks.Task<CustomerFindManyResponse> CustomerFind2Async(CustomerFindManyRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<CustomerFindManyResponse> CustomerFind2Async(CustomerFindManyRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             customer.Client.ApiResponse<CustomerFindManyResponse> localVarResponse = await CustomerFind2WithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -6387,7 +6612,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerFindManyResponse)</returns>
-        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerFindManyResponse>> CustomerFind2WithHttpInfoAsync(CustomerFindManyRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerFindManyResponse>> CustomerFind2WithHttpInfoAsync(CustomerFindManyRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -6424,6 +6649,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerFind2";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<CustomerFindManyResponse>("/customer.Customer/Find", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
@@ -6496,6 +6726,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerFindByEmail";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<CustomerCustomerResponse>("/customer/find_by_email", localVarRequestOptions, this.Configuration);
@@ -6519,7 +6754,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerCustomerResponse</returns>
-        public async System.Threading.Tasks.Task<CustomerCustomerResponse> CustomerFindByEmailAsync(CustomerFindByEmailRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<CustomerCustomerResponse> CustomerFindByEmailAsync(CustomerFindByEmailRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             customer.Client.ApiResponse<CustomerCustomerResponse> localVarResponse = await CustomerFindByEmailWithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -6533,7 +6768,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerCustomerResponse)</returns>
-        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerCustomerResponse>> CustomerFindByEmailWithHttpInfoAsync(CustomerFindByEmailRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerCustomerResponse>> CustomerFindByEmailWithHttpInfoAsync(CustomerFindByEmailRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -6570,6 +6805,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerFindByEmail";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<CustomerCustomerResponse>("/customer/find_by_email", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
@@ -6642,6 +6882,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerFindByEmail2";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<CustomerCustomerResponse>("/customer.Customer/FindByEmail", localVarRequestOptions, this.Configuration);
@@ -6665,7 +6910,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerCustomerResponse</returns>
-        public async System.Threading.Tasks.Task<CustomerCustomerResponse> CustomerFindByEmail2Async(CustomerFindByEmailRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<CustomerCustomerResponse> CustomerFindByEmail2Async(CustomerFindByEmailRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             customer.Client.ApiResponse<CustomerCustomerResponse> localVarResponse = await CustomerFindByEmail2WithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -6679,7 +6924,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerCustomerResponse)</returns>
-        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerCustomerResponse>> CustomerFindByEmail2WithHttpInfoAsync(CustomerFindByEmailRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerCustomerResponse>> CustomerFindByEmail2WithHttpInfoAsync(CustomerFindByEmailRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -6716,6 +6961,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerFindByEmail2";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<CustomerCustomerResponse>("/customer.Customer/FindByEmail", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
@@ -6788,6 +7038,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerFindById";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<CustomerCustomerResponse>("/customer/find_by_id", localVarRequestOptions, this.Configuration);
@@ -6811,7 +7066,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerCustomerResponse</returns>
-        public async System.Threading.Tasks.Task<CustomerCustomerResponse> CustomerFindByIdAsync(CustomerFindByIdRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<CustomerCustomerResponse> CustomerFindByIdAsync(CustomerFindByIdRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             customer.Client.ApiResponse<CustomerCustomerResponse> localVarResponse = await CustomerFindByIdWithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -6825,7 +7080,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerCustomerResponse)</returns>
-        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerCustomerResponse>> CustomerFindByIdWithHttpInfoAsync(CustomerFindByIdRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerCustomerResponse>> CustomerFindByIdWithHttpInfoAsync(CustomerFindByIdRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -6862,6 +7117,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerFindById";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<CustomerCustomerResponse>("/customer/find_by_id", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
@@ -6934,6 +7194,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerFindById2";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<CustomerCustomerResponse>("/customer.Customer/FindById", localVarRequestOptions, this.Configuration);
@@ -6957,7 +7222,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerCustomerResponse</returns>
-        public async System.Threading.Tasks.Task<CustomerCustomerResponse> CustomerFindById2Async(CustomerFindByIdRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<CustomerCustomerResponse> CustomerFindById2Async(CustomerFindByIdRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             customer.Client.ApiResponse<CustomerCustomerResponse> localVarResponse = await CustomerFindById2WithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -6971,7 +7236,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerCustomerResponse)</returns>
-        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerCustomerResponse>> CustomerFindById2WithHttpInfoAsync(CustomerFindByIdRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerCustomerResponse>> CustomerFindById2WithHttpInfoAsync(CustomerFindByIdRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -7008,6 +7273,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerFindById2";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<CustomerCustomerResponse>("/customer.Customer/FindById", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
@@ -7080,6 +7350,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerFindSubscriberByEmail";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<CustomerSubscriberResponse>("/customer/find_subscriber_by_email", localVarRequestOptions, this.Configuration);
@@ -7103,7 +7378,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerSubscriberResponse</returns>
-        public async System.Threading.Tasks.Task<CustomerSubscriberResponse> CustomerFindSubscriberByEmailAsync(CustomerFindSubscriberByEmailRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<CustomerSubscriberResponse> CustomerFindSubscriberByEmailAsync(CustomerFindSubscriberByEmailRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             customer.Client.ApiResponse<CustomerSubscriberResponse> localVarResponse = await CustomerFindSubscriberByEmailWithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -7117,7 +7392,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerSubscriberResponse)</returns>
-        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerSubscriberResponse>> CustomerFindSubscriberByEmailWithHttpInfoAsync(CustomerFindSubscriberByEmailRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerSubscriberResponse>> CustomerFindSubscriberByEmailWithHttpInfoAsync(CustomerFindSubscriberByEmailRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -7154,6 +7429,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerFindSubscriberByEmail";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<CustomerSubscriberResponse>("/customer/find_subscriber_by_email", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
@@ -7226,6 +7506,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerFindSubscriberByEmail2";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<CustomerSubscriberResponse>("/customer.Customer/FindSubscriberByEmail", localVarRequestOptions, this.Configuration);
@@ -7249,7 +7534,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerSubscriberResponse</returns>
-        public async System.Threading.Tasks.Task<CustomerSubscriberResponse> CustomerFindSubscriberByEmail2Async(CustomerFindSubscriberByEmailRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<CustomerSubscriberResponse> CustomerFindSubscriberByEmail2Async(CustomerFindSubscriberByEmailRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             customer.Client.ApiResponse<CustomerSubscriberResponse> localVarResponse = await CustomerFindSubscriberByEmail2WithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -7263,7 +7548,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerSubscriberResponse)</returns>
-        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerSubscriberResponse>> CustomerFindSubscriberByEmail2WithHttpInfoAsync(CustomerFindSubscriberByEmailRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerSubscriberResponse>> CustomerFindSubscriberByEmail2WithHttpInfoAsync(CustomerFindSubscriberByEmailRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -7300,6 +7585,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerFindSubscriberByEmail2";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<CustomerSubscriberResponse>("/customer.Customer/FindSubscriberByEmail", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
@@ -7372,6 +7662,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerFindSubscriberById";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<CustomerSubscriberResponse>("/customer/find_subscriber_by_id", localVarRequestOptions, this.Configuration);
@@ -7395,7 +7690,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerSubscriberResponse</returns>
-        public async System.Threading.Tasks.Task<CustomerSubscriberResponse> CustomerFindSubscriberByIdAsync(CustomerFindSubscriberByIdRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<CustomerSubscriberResponse> CustomerFindSubscriberByIdAsync(CustomerFindSubscriberByIdRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             customer.Client.ApiResponse<CustomerSubscriberResponse> localVarResponse = await CustomerFindSubscriberByIdWithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -7409,7 +7704,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerSubscriberResponse)</returns>
-        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerSubscriberResponse>> CustomerFindSubscriberByIdWithHttpInfoAsync(CustomerFindSubscriberByIdRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerSubscriberResponse>> CustomerFindSubscriberByIdWithHttpInfoAsync(CustomerFindSubscriberByIdRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -7446,6 +7741,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerFindSubscriberById";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<CustomerSubscriberResponse>("/customer/find_subscriber_by_id", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
@@ -7518,6 +7818,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerFindSubscriberById2";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<CustomerSubscriberResponse>("/customer.Customer/FindSubscriberById", localVarRequestOptions, this.Configuration);
@@ -7541,7 +7846,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerSubscriberResponse</returns>
-        public async System.Threading.Tasks.Task<CustomerSubscriberResponse> CustomerFindSubscriberById2Async(CustomerFindSubscriberByIdRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<CustomerSubscriberResponse> CustomerFindSubscriberById2Async(CustomerFindSubscriberByIdRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             customer.Client.ApiResponse<CustomerSubscriberResponse> localVarResponse = await CustomerFindSubscriberById2WithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -7555,7 +7860,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerSubscriberResponse)</returns>
-        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerSubscriberResponse>> CustomerFindSubscriberById2WithHttpInfoAsync(CustomerFindSubscriberByIdRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerSubscriberResponse>> CustomerFindSubscriberById2WithHttpInfoAsync(CustomerFindSubscriberByIdRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -7592,6 +7897,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerFindSubscriberById2";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<CustomerSubscriberResponse>("/customer.Customer/FindSubscriberById", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
@@ -7664,6 +7974,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerGetGroupByCode";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<CustomerGroupResponse>("/customer/get_segment_by_code", localVarRequestOptions, this.Configuration);
@@ -7687,7 +8002,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerGroupResponse</returns>
-        public async System.Threading.Tasks.Task<CustomerGroupResponse> CustomerGetGroupByCodeAsync(CustomerGetGroupByCodeRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<CustomerGroupResponse> CustomerGetGroupByCodeAsync(CustomerGetGroupByCodeRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             customer.Client.ApiResponse<CustomerGroupResponse> localVarResponse = await CustomerGetGroupByCodeWithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -7701,7 +8016,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerGroupResponse)</returns>
-        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerGroupResponse>> CustomerGetGroupByCodeWithHttpInfoAsync(CustomerGetGroupByCodeRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerGroupResponse>> CustomerGetGroupByCodeWithHttpInfoAsync(CustomerGetGroupByCodeRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -7738,6 +8053,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerGetGroupByCode";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<CustomerGroupResponse>("/customer/get_segment_by_code", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
@@ -7810,6 +8130,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerGetGroupByCode2";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<CustomerGroupResponse>("/customer.Customer/GetGroupByCode", localVarRequestOptions, this.Configuration);
@@ -7833,7 +8158,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerGroupResponse</returns>
-        public async System.Threading.Tasks.Task<CustomerGroupResponse> CustomerGetGroupByCode2Async(CustomerGetGroupByCodeRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<CustomerGroupResponse> CustomerGetGroupByCode2Async(CustomerGetGroupByCodeRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             customer.Client.ApiResponse<CustomerGroupResponse> localVarResponse = await CustomerGetGroupByCode2WithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -7847,7 +8172,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerGroupResponse)</returns>
-        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerGroupResponse>> CustomerGetGroupByCode2WithHttpInfoAsync(CustomerGetGroupByCodeRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerGroupResponse>> CustomerGetGroupByCode2WithHttpInfoAsync(CustomerGetGroupByCodeRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -7884,6 +8209,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerGetGroupByCode2";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<CustomerGroupResponse>("/customer.Customer/GetGroupByCode", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
@@ -7956,6 +8286,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerGetGroupById";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<CustomerGroupResponse>("/customer/get_segment_by_id", localVarRequestOptions, this.Configuration);
@@ -7979,7 +8314,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerGroupResponse</returns>
-        public async System.Threading.Tasks.Task<CustomerGroupResponse> CustomerGetGroupByIdAsync(CustomerGetGroupByIdRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<CustomerGroupResponse> CustomerGetGroupByIdAsync(CustomerGetGroupByIdRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             customer.Client.ApiResponse<CustomerGroupResponse> localVarResponse = await CustomerGetGroupByIdWithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -7993,7 +8328,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerGroupResponse)</returns>
-        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerGroupResponse>> CustomerGetGroupByIdWithHttpInfoAsync(CustomerGetGroupByIdRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerGroupResponse>> CustomerGetGroupByIdWithHttpInfoAsync(CustomerGetGroupByIdRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -8030,6 +8365,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerGetGroupById";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<CustomerGroupResponse>("/customer/get_segment_by_id", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
@@ -8102,6 +8442,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerGetGroupById2";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<CustomerGroupResponse>("/customer.Customer/GetGroupById", localVarRequestOptions, this.Configuration);
@@ -8125,7 +8470,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerGroupResponse</returns>
-        public async System.Threading.Tasks.Task<CustomerGroupResponse> CustomerGetGroupById2Async(CustomerGetGroupByIdRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<CustomerGroupResponse> CustomerGetGroupById2Async(CustomerGetGroupByIdRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             customer.Client.ApiResponse<CustomerGroupResponse> localVarResponse = await CustomerGetGroupById2WithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -8139,7 +8484,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerGroupResponse)</returns>
-        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerGroupResponse>> CustomerGetGroupById2WithHttpInfoAsync(CustomerGetGroupByIdRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerGroupResponse>> CustomerGetGroupById2WithHttpInfoAsync(CustomerGetGroupByIdRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -8176,6 +8521,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerGetGroupById2";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<CustomerGroupResponse>("/customer.Customer/GetGroupById", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
@@ -8248,6 +8598,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerGrantPermissions";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<Object>("/customer/grant_permissions", localVarRequestOptions, this.Configuration);
@@ -8271,7 +8626,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of Object</returns>
-        public async System.Threading.Tasks.Task<Object> CustomerGrantPermissionsAsync(CustomerGrantPermissionsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<Object> CustomerGrantPermissionsAsync(CustomerGrantPermissionsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             customer.Client.ApiResponse<Object> localVarResponse = await CustomerGrantPermissionsWithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -8285,7 +8640,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (Object)</returns>
-        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<Object>> CustomerGrantPermissionsWithHttpInfoAsync(CustomerGrantPermissionsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<Object>> CustomerGrantPermissionsWithHttpInfoAsync(CustomerGrantPermissionsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -8322,6 +8677,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerGrantPermissions";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<Object>("/customer/grant_permissions", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
@@ -8394,6 +8754,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerGrantPermissions2";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<Object>("/customer.Customer/GrantPermissions", localVarRequestOptions, this.Configuration);
@@ -8417,7 +8782,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of Object</returns>
-        public async System.Threading.Tasks.Task<Object> CustomerGrantPermissions2Async(CustomerGrantPermissionsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<Object> CustomerGrantPermissions2Async(CustomerGrantPermissionsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             customer.Client.ApiResponse<Object> localVarResponse = await CustomerGrantPermissions2WithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -8431,7 +8796,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (Object)</returns>
-        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<Object>> CustomerGrantPermissions2WithHttpInfoAsync(CustomerGrantPermissionsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<Object>> CustomerGrantPermissions2WithHttpInfoAsync(CustomerGrantPermissionsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -8468,6 +8833,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerGrantPermissions2";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<Object>("/customer.Customer/GrantPermissions", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
@@ -8540,6 +8910,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerListConsents";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<CustomerListConsentsResponse>("/customer.Customer/ListConsents", localVarRequestOptions, this.Configuration);
@@ -8563,7 +8938,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerListConsentsResponse</returns>
-        public async System.Threading.Tasks.Task<CustomerListConsentsResponse> CustomerListConsentsAsync(CustomerListConsentsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<CustomerListConsentsResponse> CustomerListConsentsAsync(CustomerListConsentsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             customer.Client.ApiResponse<CustomerListConsentsResponse> localVarResponse = await CustomerListConsentsWithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -8577,7 +8952,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerListConsentsResponse)</returns>
-        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerListConsentsResponse>> CustomerListConsentsWithHttpInfoAsync(CustomerListConsentsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerListConsentsResponse>> CustomerListConsentsWithHttpInfoAsync(CustomerListConsentsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -8614,6 +8989,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerListConsents";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<CustomerListConsentsResponse>("/customer.Customer/ListConsents", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
@@ -8686,6 +9066,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerListCustomers";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<CustomerListCustomersResponse>("/customer/list_customers", localVarRequestOptions, this.Configuration);
@@ -8709,7 +9094,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerListCustomersResponse</returns>
-        public async System.Threading.Tasks.Task<CustomerListCustomersResponse> CustomerListCustomersAsync(CustomerListCustomersRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<CustomerListCustomersResponse> CustomerListCustomersAsync(CustomerListCustomersRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             customer.Client.ApiResponse<CustomerListCustomersResponse> localVarResponse = await CustomerListCustomersWithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -8723,7 +9108,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerListCustomersResponse)</returns>
-        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerListCustomersResponse>> CustomerListCustomersWithHttpInfoAsync(CustomerListCustomersRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerListCustomersResponse>> CustomerListCustomersWithHttpInfoAsync(CustomerListCustomersRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -8760,6 +9145,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerListCustomers";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<CustomerListCustomersResponse>("/customer/list_customers", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
@@ -8832,6 +9222,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerListCustomers2";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<CustomerListCustomersResponse>("/customer.Customer/ListCustomers", localVarRequestOptions, this.Configuration);
@@ -8855,7 +9250,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerListCustomersResponse</returns>
-        public async System.Threading.Tasks.Task<CustomerListCustomersResponse> CustomerListCustomers2Async(CustomerListCustomersRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<CustomerListCustomersResponse> CustomerListCustomers2Async(CustomerListCustomersRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             customer.Client.ApiResponse<CustomerListCustomersResponse> localVarResponse = await CustomerListCustomers2WithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -8869,7 +9264,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerListCustomersResponse)</returns>
-        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerListCustomersResponse>> CustomerListCustomers2WithHttpInfoAsync(CustomerListCustomersRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerListCustomersResponse>> CustomerListCustomers2WithHttpInfoAsync(CustomerListCustomersRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -8906,6 +9301,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerListCustomers2";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<CustomerListCustomersResponse>("/customer.Customer/ListCustomers", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
@@ -8978,6 +9378,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerListGroups";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<CustomerListGroupsResponse>("/customer/list_segments", localVarRequestOptions, this.Configuration);
@@ -9001,7 +9406,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerListGroupsResponse</returns>
-        public async System.Threading.Tasks.Task<CustomerListGroupsResponse> CustomerListGroupsAsync(CustomerListGroupsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<CustomerListGroupsResponse> CustomerListGroupsAsync(CustomerListGroupsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             customer.Client.ApiResponse<CustomerListGroupsResponse> localVarResponse = await CustomerListGroupsWithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -9015,7 +9420,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerListGroupsResponse)</returns>
-        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerListGroupsResponse>> CustomerListGroupsWithHttpInfoAsync(CustomerListGroupsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerListGroupsResponse>> CustomerListGroupsWithHttpInfoAsync(CustomerListGroupsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -9052,6 +9457,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerListGroups";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<CustomerListGroupsResponse>("/customer/list_segments", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
@@ -9124,6 +9534,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerListGroups2";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<CustomerListGroupsResponse>("/customer.Customer/ListGroups", localVarRequestOptions, this.Configuration);
@@ -9147,7 +9562,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerListGroupsResponse</returns>
-        public async System.Threading.Tasks.Task<CustomerListGroupsResponse> CustomerListGroups2Async(CustomerListGroupsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<CustomerListGroupsResponse> CustomerListGroups2Async(CustomerListGroupsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             customer.Client.ApiResponse<CustomerListGroupsResponse> localVarResponse = await CustomerListGroups2WithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -9161,7 +9576,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerListGroupsResponse)</returns>
-        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerListGroupsResponse>> CustomerListGroups2WithHttpInfoAsync(CustomerListGroupsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerListGroupsResponse>> CustomerListGroups2WithHttpInfoAsync(CustomerListGroupsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -9198,6 +9613,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerListGroups2";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<CustomerListGroupsResponse>("/customer.Customer/ListGroups", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
@@ -9270,6 +9690,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerRemoveCustomerFromGroup";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<CustomerGroupResponse>("/customer/remove_customer_from_segment", localVarRequestOptions, this.Configuration);
@@ -9293,7 +9718,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerGroupResponse</returns>
-        public async System.Threading.Tasks.Task<CustomerGroupResponse> CustomerRemoveCustomerFromGroupAsync(CustomerRemoveCustomerFromGroupRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<CustomerGroupResponse> CustomerRemoveCustomerFromGroupAsync(CustomerRemoveCustomerFromGroupRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             customer.Client.ApiResponse<CustomerGroupResponse> localVarResponse = await CustomerRemoveCustomerFromGroupWithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -9307,7 +9732,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerGroupResponse)</returns>
-        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerGroupResponse>> CustomerRemoveCustomerFromGroupWithHttpInfoAsync(CustomerRemoveCustomerFromGroupRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerGroupResponse>> CustomerRemoveCustomerFromGroupWithHttpInfoAsync(CustomerRemoveCustomerFromGroupRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -9344,6 +9769,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerRemoveCustomerFromGroup";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<CustomerGroupResponse>("/customer/remove_customer_from_segment", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
@@ -9416,6 +9846,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerRemoveCustomerFromGroup2";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<CustomerGroupResponse>("/customer.Customer/RemoveCustomerFromGroup", localVarRequestOptions, this.Configuration);
@@ -9439,7 +9874,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerGroupResponse</returns>
-        public async System.Threading.Tasks.Task<CustomerGroupResponse> CustomerRemoveCustomerFromGroup2Async(CustomerRemoveCustomerFromGroupRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<CustomerGroupResponse> CustomerRemoveCustomerFromGroup2Async(CustomerRemoveCustomerFromGroupRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             customer.Client.ApiResponse<CustomerGroupResponse> localVarResponse = await CustomerRemoveCustomerFromGroup2WithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -9453,7 +9888,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerGroupResponse)</returns>
-        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerGroupResponse>> CustomerRemoveCustomerFromGroup2WithHttpInfoAsync(CustomerRemoveCustomerFromGroupRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerGroupResponse>> CustomerRemoveCustomerFromGroup2WithHttpInfoAsync(CustomerRemoveCustomerFromGroupRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -9490,6 +9925,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerRemoveCustomerFromGroup2";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<CustomerGroupResponse>("/customer.Customer/RemoveCustomerFromGroup", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
@@ -9562,6 +10002,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerRemoveDefaultAddress";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<CustomerCustomerResponse>("/customer/remove_default_address", localVarRequestOptions, this.Configuration);
@@ -9585,7 +10030,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerCustomerResponse</returns>
-        public async System.Threading.Tasks.Task<CustomerCustomerResponse> CustomerRemoveDefaultAddressAsync(CustomerRemoveDefaultAddressRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<CustomerCustomerResponse> CustomerRemoveDefaultAddressAsync(CustomerRemoveDefaultAddressRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             customer.Client.ApiResponse<CustomerCustomerResponse> localVarResponse = await CustomerRemoveDefaultAddressWithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -9599,7 +10044,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerCustomerResponse)</returns>
-        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerCustomerResponse>> CustomerRemoveDefaultAddressWithHttpInfoAsync(CustomerRemoveDefaultAddressRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerCustomerResponse>> CustomerRemoveDefaultAddressWithHttpInfoAsync(CustomerRemoveDefaultAddressRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -9636,6 +10081,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerRemoveDefaultAddress";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<CustomerCustomerResponse>("/customer/remove_default_address", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
@@ -9708,6 +10158,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerRemoveDefaultAddress2";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<CustomerCustomerResponse>("/customer.Customer/RemoveDefaultAddress", localVarRequestOptions, this.Configuration);
@@ -9731,7 +10186,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerCustomerResponse</returns>
-        public async System.Threading.Tasks.Task<CustomerCustomerResponse> CustomerRemoveDefaultAddress2Async(CustomerRemoveDefaultAddressRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<CustomerCustomerResponse> CustomerRemoveDefaultAddress2Async(CustomerRemoveDefaultAddressRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             customer.Client.ApiResponse<CustomerCustomerResponse> localVarResponse = await CustomerRemoveDefaultAddress2WithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -9745,7 +10200,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerCustomerResponse)</returns>
-        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerCustomerResponse>> CustomerRemoveDefaultAddress2WithHttpInfoAsync(CustomerRemoveDefaultAddressRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerCustomerResponse>> CustomerRemoveDefaultAddress2WithHttpInfoAsync(CustomerRemoveDefaultAddressRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -9782,6 +10237,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerRemoveDefaultAddress2";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<CustomerCustomerResponse>("/customer.Customer/RemoveDefaultAddress", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
@@ -9854,6 +10314,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerRevokePermissions";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<Object>("/customer/revoke_permissions", localVarRequestOptions, this.Configuration);
@@ -9877,7 +10342,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of Object</returns>
-        public async System.Threading.Tasks.Task<Object> CustomerRevokePermissionsAsync(CustomerRevokePermissionsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<Object> CustomerRevokePermissionsAsync(CustomerRevokePermissionsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             customer.Client.ApiResponse<Object> localVarResponse = await CustomerRevokePermissionsWithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -9891,7 +10356,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (Object)</returns>
-        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<Object>> CustomerRevokePermissionsWithHttpInfoAsync(CustomerRevokePermissionsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<Object>> CustomerRevokePermissionsWithHttpInfoAsync(CustomerRevokePermissionsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -9928,6 +10393,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerRevokePermissions";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<Object>("/customer/revoke_permissions", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
@@ -10000,6 +10470,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerRevokePermissions2";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<Object>("/customer.Customer/RevokePermissions", localVarRequestOptions, this.Configuration);
@@ -10023,7 +10498,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of Object</returns>
-        public async System.Threading.Tasks.Task<Object> CustomerRevokePermissions2Async(CustomerRevokePermissionsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<Object> CustomerRevokePermissions2Async(CustomerRevokePermissionsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             customer.Client.ApiResponse<Object> localVarResponse = await CustomerRevokePermissions2WithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -10037,7 +10512,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (Object)</returns>
-        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<Object>> CustomerRevokePermissions2WithHttpInfoAsync(CustomerRevokePermissionsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<Object>> CustomerRevokePermissions2WithHttpInfoAsync(CustomerRevokePermissionsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -10074,6 +10549,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerRevokePermissions2";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<Object>("/customer.Customer/RevokePermissions", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
@@ -10146,6 +10626,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerSearch";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<CustomerSearchResponse>("/customer/search", localVarRequestOptions, this.Configuration);
@@ -10169,7 +10654,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerSearchResponse</returns>
-        public async System.Threading.Tasks.Task<CustomerSearchResponse> CustomerSearchAsync(CustomerSearchRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<CustomerSearchResponse> CustomerSearchAsync(CustomerSearchRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             customer.Client.ApiResponse<CustomerSearchResponse> localVarResponse = await CustomerSearchWithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -10183,7 +10668,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerSearchResponse)</returns>
-        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerSearchResponse>> CustomerSearchWithHttpInfoAsync(CustomerSearchRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerSearchResponse>> CustomerSearchWithHttpInfoAsync(CustomerSearchRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -10220,6 +10705,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerSearch";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<CustomerSearchResponse>("/customer/search", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
@@ -10292,6 +10782,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerSearch2";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<CustomerSearchResponse>("/customer.Customer/Search", localVarRequestOptions, this.Configuration);
@@ -10315,7 +10810,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerSearchResponse</returns>
-        public async System.Threading.Tasks.Task<CustomerSearchResponse> CustomerSearch2Async(CustomerSearchRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<CustomerSearchResponse> CustomerSearch2Async(CustomerSearchRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             customer.Client.ApiResponse<CustomerSearchResponse> localVarResponse = await CustomerSearch2WithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -10329,7 +10824,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerSearchResponse)</returns>
-        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerSearchResponse>> CustomerSearch2WithHttpInfoAsync(CustomerSearchRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerSearchResponse>> CustomerSearch2WithHttpInfoAsync(CustomerSearchRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -10366,6 +10861,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerSearch2";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<CustomerSearchResponse>("/customer.Customer/Search", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
@@ -10438,6 +10938,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerSetDefaultAddress";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<CustomerCustomerResponse>("/customer/set_default_address", localVarRequestOptions, this.Configuration);
@@ -10461,7 +10966,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerCustomerResponse</returns>
-        public async System.Threading.Tasks.Task<CustomerCustomerResponse> CustomerSetDefaultAddressAsync(CustomerSetDefaultAddressRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<CustomerCustomerResponse> CustomerSetDefaultAddressAsync(CustomerSetDefaultAddressRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             customer.Client.ApiResponse<CustomerCustomerResponse> localVarResponse = await CustomerSetDefaultAddressWithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -10475,7 +10980,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerCustomerResponse)</returns>
-        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerCustomerResponse>> CustomerSetDefaultAddressWithHttpInfoAsync(CustomerSetDefaultAddressRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerCustomerResponse>> CustomerSetDefaultAddressWithHttpInfoAsync(CustomerSetDefaultAddressRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -10512,6 +11017,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerSetDefaultAddress";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<CustomerCustomerResponse>("/customer/set_default_address", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
@@ -10584,6 +11094,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerSetDefaultAddress2";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<CustomerCustomerResponse>("/customer.Customer/SetDefaultAddress", localVarRequestOptions, this.Configuration);
@@ -10607,7 +11122,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerCustomerResponse</returns>
-        public async System.Threading.Tasks.Task<CustomerCustomerResponse> CustomerSetDefaultAddress2Async(CustomerSetDefaultAddressRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<CustomerCustomerResponse> CustomerSetDefaultAddress2Async(CustomerSetDefaultAddressRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             customer.Client.ApiResponse<CustomerCustomerResponse> localVarResponse = await CustomerSetDefaultAddress2WithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -10621,7 +11136,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerCustomerResponse)</returns>
-        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerCustomerResponse>> CustomerSetDefaultAddress2WithHttpInfoAsync(CustomerSetDefaultAddressRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerCustomerResponse>> CustomerSetDefaultAddress2WithHttpInfoAsync(CustomerSetDefaultAddressRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -10658,6 +11173,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerSetDefaultAddress2";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<CustomerCustomerResponse>("/customer.Customer/SetDefaultAddress", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
@@ -10730,6 +11250,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerSetPermissions";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<Object>("/customer/set_permissions", localVarRequestOptions, this.Configuration);
@@ -10753,7 +11278,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of Object</returns>
-        public async System.Threading.Tasks.Task<Object> CustomerSetPermissionsAsync(CustomerSetPermissionsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<Object> CustomerSetPermissionsAsync(CustomerSetPermissionsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             customer.Client.ApiResponse<Object> localVarResponse = await CustomerSetPermissionsWithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -10767,7 +11292,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (Object)</returns>
-        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<Object>> CustomerSetPermissionsWithHttpInfoAsync(CustomerSetPermissionsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<Object>> CustomerSetPermissionsWithHttpInfoAsync(CustomerSetPermissionsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -10804,6 +11329,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerSetPermissions";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<Object>("/customer/set_permissions", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
@@ -10876,6 +11406,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerSetPermissions2";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<Object>("/customer.Customer/SetPermissions", localVarRequestOptions, this.Configuration);
@@ -10899,7 +11434,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of Object</returns>
-        public async System.Threading.Tasks.Task<Object> CustomerSetPermissions2Async(CustomerSetPermissionsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<Object> CustomerSetPermissions2Async(CustomerSetPermissionsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             customer.Client.ApiResponse<Object> localVarResponse = await CustomerSetPermissions2WithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -10913,7 +11448,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (Object)</returns>
-        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<Object>> CustomerSetPermissions2WithHttpInfoAsync(CustomerSetPermissionsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<Object>> CustomerSetPermissions2WithHttpInfoAsync(CustomerSetPermissionsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -10950,6 +11485,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerSetPermissions2";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<Object>("/customer.Customer/SetPermissions", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
@@ -11022,6 +11562,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerUnassignAgent";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<Object>("/customer.Customer/UnassignAgent", localVarRequestOptions, this.Configuration);
@@ -11045,7 +11590,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of Object</returns>
-        public async System.Threading.Tasks.Task<Object> CustomerUnassignAgentAsync(CustomerUnassignAgentRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<Object> CustomerUnassignAgentAsync(CustomerUnassignAgentRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             customer.Client.ApiResponse<Object> localVarResponse = await CustomerUnassignAgentWithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -11059,7 +11604,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (Object)</returns>
-        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<Object>> CustomerUnassignAgentWithHttpInfoAsync(CustomerUnassignAgentRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<Object>> CustomerUnassignAgentWithHttpInfoAsync(CustomerUnassignAgentRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -11096,6 +11641,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerUnassignAgent";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<Object>("/customer.Customer/UnassignAgent", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
@@ -11168,6 +11718,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerUnsubscribe";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<CustomerUnsubscribeResponse>("/customer/unsubscribe", localVarRequestOptions, this.Configuration);
@@ -11191,7 +11746,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerUnsubscribeResponse</returns>
-        public async System.Threading.Tasks.Task<CustomerUnsubscribeResponse> CustomerUnsubscribeAsync(CustomerUnsubscribeRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<CustomerUnsubscribeResponse> CustomerUnsubscribeAsync(CustomerUnsubscribeRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             customer.Client.ApiResponse<CustomerUnsubscribeResponse> localVarResponse = await CustomerUnsubscribeWithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -11205,7 +11760,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerUnsubscribeResponse)</returns>
-        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerUnsubscribeResponse>> CustomerUnsubscribeWithHttpInfoAsync(CustomerUnsubscribeRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerUnsubscribeResponse>> CustomerUnsubscribeWithHttpInfoAsync(CustomerUnsubscribeRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -11242,6 +11797,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerUnsubscribe";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<CustomerUnsubscribeResponse>("/customer/unsubscribe", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
@@ -11314,6 +11874,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerUnsubscribe2";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<CustomerUnsubscribeResponse>("/customer.Customer/Unsubscribe", localVarRequestOptions, this.Configuration);
@@ -11337,7 +11902,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerUnsubscribeResponse</returns>
-        public async System.Threading.Tasks.Task<CustomerUnsubscribeResponse> CustomerUnsubscribe2Async(CustomerUnsubscribeRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<CustomerUnsubscribeResponse> CustomerUnsubscribe2Async(CustomerUnsubscribeRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             customer.Client.ApiResponse<CustomerUnsubscribeResponse> localVarResponse = await CustomerUnsubscribe2WithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -11351,7 +11916,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerUnsubscribeResponse)</returns>
-        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerUnsubscribeResponse>> CustomerUnsubscribe2WithHttpInfoAsync(CustomerUnsubscribeRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerUnsubscribeResponse>> CustomerUnsubscribe2WithHttpInfoAsync(CustomerUnsubscribeRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -11388,6 +11953,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerUnsubscribe2";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<CustomerUnsubscribeResponse>("/customer.Customer/Unsubscribe", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
@@ -11460,6 +12030,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerUpdate";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<CustomerCustomerResponse>("/customer/update", localVarRequestOptions, this.Configuration);
@@ -11483,7 +12058,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerCustomerResponse</returns>
-        public async System.Threading.Tasks.Task<CustomerCustomerResponse> CustomerUpdateAsync(CustomerUpdateRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<CustomerCustomerResponse> CustomerUpdateAsync(CustomerUpdateRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             customer.Client.ApiResponse<CustomerCustomerResponse> localVarResponse = await CustomerUpdateWithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -11497,7 +12072,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerCustomerResponse)</returns>
-        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerCustomerResponse>> CustomerUpdateWithHttpInfoAsync(CustomerUpdateRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerCustomerResponse>> CustomerUpdateWithHttpInfoAsync(CustomerUpdateRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -11534,6 +12109,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerUpdate";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<CustomerCustomerResponse>("/customer/update", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
@@ -11606,6 +12186,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerUpdate2";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<CustomerCustomerResponse>("/customer.Customer/Update", localVarRequestOptions, this.Configuration);
@@ -11629,7 +12214,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerCustomerResponse</returns>
-        public async System.Threading.Tasks.Task<CustomerCustomerResponse> CustomerUpdate2Async(CustomerUpdateRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<CustomerCustomerResponse> CustomerUpdate2Async(CustomerUpdateRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             customer.Client.ApiResponse<CustomerCustomerResponse> localVarResponse = await CustomerUpdate2WithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -11643,7 +12228,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerCustomerResponse)</returns>
-        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerCustomerResponse>> CustomerUpdate2WithHttpInfoAsync(CustomerUpdateRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerCustomerResponse>> CustomerUpdate2WithHttpInfoAsync(CustomerUpdateRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -11680,6 +12265,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerUpdate2";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<CustomerCustomerResponse>("/customer.Customer/Update", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
@@ -11752,6 +12342,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerUpdateAddress";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<CustomerAddressUpdateResponse>("/customer/update_address", localVarRequestOptions, this.Configuration);
@@ -11775,7 +12370,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerAddressUpdateResponse</returns>
-        public async System.Threading.Tasks.Task<CustomerAddressUpdateResponse> CustomerUpdateAddressAsync(CustomerAddressUpdateRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<CustomerAddressUpdateResponse> CustomerUpdateAddressAsync(CustomerAddressUpdateRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             customer.Client.ApiResponse<CustomerAddressUpdateResponse> localVarResponse = await CustomerUpdateAddressWithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -11789,7 +12384,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerAddressUpdateResponse)</returns>
-        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerAddressUpdateResponse>> CustomerUpdateAddressWithHttpInfoAsync(CustomerAddressUpdateRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerAddressUpdateResponse>> CustomerUpdateAddressWithHttpInfoAsync(CustomerAddressUpdateRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -11826,6 +12421,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerUpdateAddress";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<CustomerAddressUpdateResponse>("/customer/update_address", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
@@ -11898,6 +12498,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerUpdateAddress2";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<CustomerAddressUpdateResponse>("/customer.Customer/UpdateAddress", localVarRequestOptions, this.Configuration);
@@ -11921,7 +12526,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerAddressUpdateResponse</returns>
-        public async System.Threading.Tasks.Task<CustomerAddressUpdateResponse> CustomerUpdateAddress2Async(CustomerAddressUpdateRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<CustomerAddressUpdateResponse> CustomerUpdateAddress2Async(CustomerAddressUpdateRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             customer.Client.ApiResponse<CustomerAddressUpdateResponse> localVarResponse = await CustomerUpdateAddress2WithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -11935,7 +12540,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerAddressUpdateResponse)</returns>
-        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerAddressUpdateResponse>> CustomerUpdateAddress2WithHttpInfoAsync(CustomerAddressUpdateRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerAddressUpdateResponse>> CustomerUpdateAddress2WithHttpInfoAsync(CustomerAddressUpdateRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -11972,6 +12577,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerUpdateAddress2";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<CustomerAddressUpdateResponse>("/customer.Customer/UpdateAddress", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
@@ -12044,6 +12654,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerUpdateGroup";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<CustomerGroupResponse>("/customer/update_segment", localVarRequestOptions, this.Configuration);
@@ -12067,7 +12682,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerGroupResponse</returns>
-        public async System.Threading.Tasks.Task<CustomerGroupResponse> CustomerUpdateGroupAsync(CustomerUpdateGroupRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<CustomerGroupResponse> CustomerUpdateGroupAsync(CustomerUpdateGroupRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             customer.Client.ApiResponse<CustomerGroupResponse> localVarResponse = await CustomerUpdateGroupWithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -12081,7 +12696,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerGroupResponse)</returns>
-        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerGroupResponse>> CustomerUpdateGroupWithHttpInfoAsync(CustomerUpdateGroupRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerGroupResponse>> CustomerUpdateGroupWithHttpInfoAsync(CustomerUpdateGroupRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -12118,6 +12733,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerUpdateGroup";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<CustomerGroupResponse>("/customer/update_segment", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
@@ -12190,6 +12810,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerUpdateGroup2";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<CustomerGroupResponse>("/customer.Customer/UpdateGroup", localVarRequestOptions, this.Configuration);
@@ -12213,7 +12838,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerGroupResponse</returns>
-        public async System.Threading.Tasks.Task<CustomerGroupResponse> CustomerUpdateGroup2Async(CustomerUpdateGroupRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<CustomerGroupResponse> CustomerUpdateGroup2Async(CustomerUpdateGroupRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             customer.Client.ApiResponse<CustomerGroupResponse> localVarResponse = await CustomerUpdateGroup2WithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -12227,7 +12852,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerGroupResponse)</returns>
-        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerGroupResponse>> CustomerUpdateGroup2WithHttpInfoAsync(CustomerUpdateGroupRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerGroupResponse>> CustomerUpdateGroup2WithHttpInfoAsync(CustomerUpdateGroupRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -12264,6 +12889,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerUpdateGroup2";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<CustomerGroupResponse>("/customer.Customer/UpdateGroup", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
@@ -12336,6 +12966,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerUpdateSubscriber";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<CustomerSubscriberResponse>("/customer/update_subscriber", localVarRequestOptions, this.Configuration);
@@ -12359,7 +12994,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerSubscriberResponse</returns>
-        public async System.Threading.Tasks.Task<CustomerSubscriberResponse> CustomerUpdateSubscriberAsync(CustomerUpdateSubscriberRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<CustomerSubscriberResponse> CustomerUpdateSubscriberAsync(CustomerUpdateSubscriberRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             customer.Client.ApiResponse<CustomerSubscriberResponse> localVarResponse = await CustomerUpdateSubscriberWithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -12373,7 +13008,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerSubscriberResponse)</returns>
-        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerSubscriberResponse>> CustomerUpdateSubscriberWithHttpInfoAsync(CustomerUpdateSubscriberRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerSubscriberResponse>> CustomerUpdateSubscriberWithHttpInfoAsync(CustomerUpdateSubscriberRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -12410,6 +13045,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerUpdateSubscriber";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<CustomerSubscriberResponse>("/customer/update_subscriber", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
@@ -12482,6 +13122,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerUpdateSubscriber2";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<CustomerSubscriberResponse>("/customer.Customer/UpdateSubscriber", localVarRequestOptions, this.Configuration);
@@ -12505,7 +13150,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of CustomerSubscriberResponse</returns>
-        public async System.Threading.Tasks.Task<CustomerSubscriberResponse> CustomerUpdateSubscriber2Async(CustomerUpdateSubscriberRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<CustomerSubscriberResponse> CustomerUpdateSubscriber2Async(CustomerUpdateSubscriberRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             customer.Client.ApiResponse<CustomerSubscriberResponse> localVarResponse = await CustomerUpdateSubscriber2WithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -12519,7 +13164,7 @@ namespace customer.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (CustomerSubscriberResponse)</returns>
-        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerSubscriberResponse>> CustomerUpdateSubscriber2WithHttpInfoAsync(CustomerUpdateSubscriberRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<customer.Client.ApiResponse<CustomerSubscriberResponse>> CustomerUpdateSubscriber2WithHttpInfoAsync(CustomerUpdateSubscriberRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -12556,6 +13201,11 @@ namespace customer.Api
             localVarRequestOptions.Operation = "CustomerApi.CustomerUpdateSubscriber2";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<CustomerSubscriberResponse>("/customer.Customer/UpdateSubscriber", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
